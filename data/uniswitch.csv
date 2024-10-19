@@ -1,0 +1,11 @@
+input;amount;unit
+aluminium_cast;1.1;kilogram
+brass;0.4;kilogram
+copper;7.6;kilogram
+rubber;0.7;kilogram
+epoxy;22.6;kilogram
+paint;0.8;kilogram
+sulfur_hexafluoride;0.2;kilogram
+steel_lowalloyed;6;kilogram
+steel_unalloyed;89.7;kilogram
+zinc;0.5;kilogram

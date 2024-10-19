@@ -1,0 +1,9 @@
+input;amount;unit
+concrete;84;cubic meter
+steel_unalloyed;28500;kilogram
+zinc;520;kilogram
+steel_lowalloyed;3264;kilogram
+aluminium_wrought_alloy;8238;kilogram
+cement_unspecified;65;kilogram
+glass_tube_borosilicate;1380;kilogram
+transformer_oil;131;kilogram
