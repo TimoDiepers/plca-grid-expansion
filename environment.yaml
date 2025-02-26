@@ -7,9 +7,10 @@ channels:
 dependencies:
   - ipython
   - ipykernel
-  - premise
+  - premise==2.1.5
   - brokenaxes
   - bw2data==4.0.dev46
+  - bw2calc==2.0.dev23
   # - brightway25
   - brightway25_nosolver # for macOS ARM machine
   - scikit-umfpack # for macOS ARM machine
