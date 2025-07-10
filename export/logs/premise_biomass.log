@@ -1,0 +1,1176 @@
+2025-07-09 15:28:38,134|biomass|INFO|empty|image|SSP2-RCP26|2023|supply of forest residue|US|
+2025-07-09 15:28:38,134|biomass|INFO|empty|image|SSP2-RCP26|2023|supply of forest residue|RER|
+2025-07-09 15:28:38,135|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|BRA|
+2025-07-09 15:28:38,135|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|CAN|
+2025-07-09 15:28:38,135|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|CEU|
+2025-07-09 15:28:38,135|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|CHN|
+2025-07-09 15:28:38,135|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|EAF|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|INDIA|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|INDO|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|JAP|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|KOR|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|ME|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|MEX|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|NAF|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|OCE|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|RCAM|
+2025-07-09 15:28:38,136|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|RSAF|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|RSAM|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|RSAS|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|RUS|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|SAF|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|SEAS|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|STAN|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|TUR|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|UKR|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|USA|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|WAF|
+2025-07-09 15:28:38,137|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|WEU|
+2025-07-09 15:28:38,139|biomass|INFO|created|image|SSP2-RCP26|2023|supply of forest residue|World|
+2025-07-09 15:28:38,716|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|BRA|0.17230214727792706
+2025-07-09 15:28:38,826|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|CAN|0.7931057790107705
+2025-07-09 15:28:39,188|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|CEU|0.6792689876178819
+2025-07-09 15:28:40,686|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|CHN|0.7238077487527492
+2025-07-09 15:28:41,010|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|EAF|0.24026874312372315
+2025-07-09 15:28:41,791|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|INDIA|0.4612613444925323
+2025-07-09 15:28:41,925|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|INDO|0.18867799258006682
+2025-07-09 15:28:41,962|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|JAP|1.0
+2025-07-09 15:28:41,993|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|KOR|1.0
+2025-07-09 15:28:42,026|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|ME|1.0
+2025-07-09 15:28:42,112|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|MEX|0.9970250480613762
+2025-07-09 15:28:42,287|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|NAF|0.6817841654118014
+2025-07-09 15:28:42,774|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|OCE|0.6469469135298593
+2025-07-09 15:28:43,515|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|RCAM|0.34348789003471514
+2025-07-09 15:28:43,550|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 15:28:43,915|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|RSAM|0.27645874265599957
+2025-07-09 15:28:44,106|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|RSAS|0.7892656829403415
+2025-07-09 15:28:44,261|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|RUS|0.7117225869721627
+2025-07-09 15:28:44,344|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|SAF|0.1123059876451022
+2025-07-09 15:28:44,720|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|SEAS|0.6600612046701257
+2025-07-09 15:28:44,941|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|STAN|0.0955572276865033
+2025-07-09 15:28:45,039|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|TUR|0.5053331266331594
+2025-07-09 15:28:45,173|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|UKR|0.2922029435074268
+2025-07-09 15:28:46,587|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|USA|0.9990725251849099
+2025-07-09 15:28:47,118|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|WAF|0.37355587637273274
+2025-07-09 15:28:47,299|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|WEU|0.7609359555263311
+2025-07-09 15:28:47,378|biomass|INFO|created|image|SSP2-RCP26|2023|market for biomass, used as fuel|World|0.5605475303951125
+2025-07-09 15:34:54,111|biomass|INFO|empty|image|SSP2-RCP26|2025|supply of forest residue|US|
+2025-07-09 15:34:54,112|biomass|INFO|empty|image|SSP2-RCP26|2025|supply of forest residue|RER|
+2025-07-09 15:34:54,113|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|BRA|
+2025-07-09 15:34:54,113|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|CAN|
+2025-07-09 15:34:54,113|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|CEU|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|CHN|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|EAF|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|INDIA|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|INDO|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|JAP|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|KOR|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|ME|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|MEX|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|NAF|
+2025-07-09 15:34:54,115|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|OCE|
+2025-07-09 15:34:54,116|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|RCAM|
+2025-07-09 15:34:54,116|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|RSAF|
+2025-07-09 15:34:54,116|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|RSAM|
+2025-07-09 15:34:54,116|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|RSAS|
+2025-07-09 15:34:54,116|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|RUS|
+2025-07-09 15:34:54,117|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|SAF|
+2025-07-09 15:34:54,117|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|SEAS|
+2025-07-09 15:34:54,117|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|STAN|
+2025-07-09 15:34:54,118|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|TUR|
+2025-07-09 15:34:54,118|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|UKR|
+2025-07-09 15:34:54,118|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|USA|
+2025-07-09 15:34:54,118|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|WAF|
+2025-07-09 15:34:54,118|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|WEU|
+2025-07-09 15:34:54,118|biomass|INFO|created|image|SSP2-RCP26|2025|supply of forest residue|World|
+2025-07-09 15:34:54,933|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|BRA|0.2095157821467874
+2025-07-09 15:34:55,069|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|CAN|0.7491852126086076
+2025-07-09 15:34:55,484|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|CEU|0.6342328648288623
+2025-07-09 15:34:57,093|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|CHN|0.6980744465904271
+2025-07-09 15:34:57,420|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|EAF|0.23501159370256414
+2025-07-09 15:34:58,257|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|INDIA|0.46920735143640196
+2025-07-09 15:34:58,405|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|INDO|0.19770899060093544
+2025-07-09 15:34:58,433|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|JAP|1.0
+2025-07-09 15:34:58,463|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|KOR|1.0
+2025-07-09 15:34:58,494|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|ME|1.0
+2025-07-09 15:34:58,577|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|MEX|0.9978233980163097
+2025-07-09 15:34:58,763|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|NAF|0.6480449436554393
+2025-07-09 15:34:59,235|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|OCE|0.6543217247430618
+2025-07-09 15:34:59,879|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|RCAM|0.28044459312300946
+2025-07-09 15:34:59,904|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 15:35:00,374|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|RSAM|0.24179508488411322
+2025-07-09 15:35:00,577|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|RSAS|0.7852839269427778
+2025-07-09 15:35:00,741|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|RUS|0.6744576188377013
+2025-07-09 15:35:00,825|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|SAF|0.1570334544535114
+2025-07-09 15:35:01,192|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|SEAS|0.6961678252060799
+2025-07-09 15:35:01,344|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|STAN|0.07744564601339597
+2025-07-09 15:35:01,419|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|TUR|0.48367115200347716
+2025-07-09 15:35:01,542|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|UKR|0.2627758965608798
+2025-07-09 15:35:02,969|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|USA|0.9996181604227174
+2025-07-09 15:35:03,472|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|WAF|0.366654182202951
+2025-07-09 15:35:03,624|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|WEU|0.7644984698623434
+2025-07-09 15:35:03,683|biomass|INFO|created|image|SSP2-RCP26|2025|market for biomass, used as fuel|World|0.5849150575365542
+2025-07-09 15:40:46,288|biomass|INFO|empty|image|SSP2-RCP26|2030|supply of forest residue|US|
+2025-07-09 15:40:46,289|biomass|INFO|empty|image|SSP2-RCP26|2030|supply of forest residue|RER|
+2025-07-09 15:40:46,290|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|BRA|
+2025-07-09 15:40:46,290|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|CAN|
+2025-07-09 15:40:46,290|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|CEU|
+2025-07-09 15:40:46,290|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|CHN|
+2025-07-09 15:40:46,290|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|EAF|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|INDIA|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|INDO|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|JAP|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|KOR|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|ME|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|MEX|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|NAF|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|OCE|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|RCAM|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|RSAF|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|RSAM|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|RSAS|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|RUS|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|SAF|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|SEAS|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|STAN|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|TUR|
+2025-07-09 15:40:46,291|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|UKR|
+2025-07-09 15:40:46,292|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|USA|
+2025-07-09 15:40:46,292|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|WAF|
+2025-07-09 15:40:46,292|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|WEU|
+2025-07-09 15:40:46,292|biomass|INFO|created|image|SSP2-RCP26|2030|supply of forest residue|World|
+2025-07-09 15:40:46,897|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|BRA|0.1834919116638485
+2025-07-09 15:40:47,005|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|CAN|0.6615640925540284
+2025-07-09 15:40:47,397|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|CEU|0.5718017443334346
+2025-07-09 15:40:48,957|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|CHN|0.5711408885650315
+2025-07-09 15:40:49,284|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|EAF|0.46895606004227214
+2025-07-09 15:40:50,024|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|INDIA|0.4611072837447917
+2025-07-09 15:40:50,135|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|INDO|0.3581106181454621
+2025-07-09 15:40:50,161|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|JAP|1.0
+2025-07-09 15:40:50,184|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|KOR|1.0
+2025-07-09 15:40:50,465|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|ME|0.9940452635904605
+2025-07-09 15:40:50,533|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|MEX|0.61179198453359
+2025-07-09 15:40:50,678|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|NAF|0.7794939076989488
+2025-07-09 15:40:51,056|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|OCE|0.45411715249763035
+2025-07-09 15:40:51,675|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|RCAM|0.3317086053772734
+2025-07-09 15:40:51,703|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 15:40:52,039|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|RSAM|0.19809885155533272
+2025-07-09 15:40:52,219|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|RSAS|0.8259846928249187
+2025-07-09 15:40:52,362|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|RUS|0.308260421952749
+2025-07-09 15:40:52,436|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|SAF|0.08990351146622348
+2025-07-09 15:40:52,751|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|SEAS|0.6060728916218526
+2025-07-09 15:40:52,900|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|STAN|0.07395103866270446
+2025-07-09 15:40:53,000|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|TUR|0.3157666329959039
+2025-07-09 15:40:53,124|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|UKR|0.3234583755629181
+2025-07-09 15:40:54,468|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|USA|0.9999165794577044
+2025-07-09 15:40:54,962|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|WAF|0.789385579586776
+2025-07-09 15:40:55,136|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|WEU|0.7277853363354875
+2025-07-09 15:40:55,207|biomass|INFO|created|image|SSP2-RCP26|2030|market for biomass, used as fuel|World|0.5589614421340616
+2025-07-09 15:46:56,622|biomass|INFO|empty|image|SSP2-RCP26|2035|supply of forest residue|US|
+2025-07-09 15:46:56,622|biomass|INFO|empty|image|SSP2-RCP26|2035|supply of forest residue|RER|
+2025-07-09 15:46:56,622|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|BRA|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|CAN|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|CEU|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|CHN|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|EAF|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|INDIA|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|INDO|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|JAP|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|KOR|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|ME|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|MEX|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|NAF|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|OCE|
+2025-07-09 15:46:56,623|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|RCAM|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|RSAF|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|RSAM|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|RSAS|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|RUS|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|SAF|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|SEAS|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|STAN|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|TUR|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|UKR|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|USA|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|WAF|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|WEU|
+2025-07-09 15:46:56,624|biomass|INFO|created|image|SSP2-RCP26|2035|supply of forest residue|World|
+2025-07-09 15:46:57,270|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|BRA|0.26281737498967106
+2025-07-09 15:46:57,381|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|CAN|0.7277616372560186
+2025-07-09 15:46:57,782|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|CEU|0.5483951002588836
+2025-07-09 15:46:59,393|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|CHN|0.7734616798905031
+2025-07-09 15:46:59,722|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|EAF|0.35830592109673975
+2025-07-09 15:47:00,486|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|INDIA|0.6754355232251166
+2025-07-09 15:47:00,597|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|INDO|0.6381933077647773
+2025-07-09 15:47:00,621|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|JAP|1.0
+2025-07-09 15:47:00,716|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|KOR|0.9019129240977564
+2025-07-09 15:47:01,021|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|ME|0.995513130077068
+2025-07-09 15:47:01,100|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|MEX|0.4387927116767922
+2025-07-09 15:47:01,271|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|NAF|0.5326111795422124
+2025-07-09 15:47:01,712|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|OCE|0.20358439416850924
+2025-07-09 15:47:02,343|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|RCAM|0.45154444117696013
+2025-07-09 15:47:02,729|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|RSAF|0.39037448105787603
+2025-07-09 15:47:03,076|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|RSAM|0.30477142569442045
+2025-07-09 15:47:03,259|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|RSAS|0.8223097952029389
+2025-07-09 15:47:03,407|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|RUS|0.6621787264323935
+2025-07-09 15:47:03,480|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|SAF|0.08830645025932422
+2025-07-09 15:47:03,826|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|SEAS|0.6781913366229619
+2025-07-09 15:47:03,975|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|STAN|0.19511150422097862
+2025-07-09 15:47:04,053|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|TUR|0.29854690529827854
+2025-07-09 15:47:04,165|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|UKR|0.2715861022910643
+2025-07-09 15:47:05,656|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|USA|0.9999724649777796
+2025-07-09 15:47:06,181|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|WAF|0.8499233656624251
+2025-07-09 15:47:06,353|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|WEU|0.8129410317757162
+2025-07-09 15:47:06,427|biomass|INFO|created|image|SSP2-RCP26|2035|market for biomass, used as fuel|World|0.6400124516147375
+2025-07-09 15:52:53,056|biomass|INFO|empty|image|SSP2-RCP26|2037|supply of forest residue|US|
+2025-07-09 15:52:53,057|biomass|INFO|empty|image|SSP2-RCP26|2037|supply of forest residue|RER|
+2025-07-09 15:52:53,058|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|BRA|
+2025-07-09 15:52:53,058|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|CAN|
+2025-07-09 15:52:53,058|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|CEU|
+2025-07-09 15:52:53,058|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|CHN|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|EAF|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|INDIA|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|INDO|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|JAP|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|KOR|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|ME|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|MEX|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|NAF|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|OCE|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|RCAM|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|RSAF|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|RSAM|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|RSAS|
+2025-07-09 15:52:53,059|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|RUS|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|SAF|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|SEAS|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|STAN|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|TUR|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|UKR|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|USA|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|WAF|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|WEU|
+2025-07-09 15:52:53,060|biomass|INFO|created|image|SSP2-RCP26|2037|supply of forest residue|World|
+2025-07-09 15:52:53,660|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|BRA|0.2785010141911816
+2025-07-09 15:52:53,790|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|CAN|0.7415596044109294
+2025-07-09 15:52:54,204|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|CEU|0.5742622253836607
+2025-07-09 15:52:55,723|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|CHN|0.8356639885026448
+2025-07-09 15:52:56,026|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|EAF|0.3161074664498033
+2025-07-09 15:52:56,746|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|INDIA|0.6869485691559382
+2025-07-09 15:52:56,859|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|INDO|0.6889775725593047
+2025-07-09 15:52:56,893|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|JAP|1.0
+2025-07-09 15:52:56,991|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|KOR|0.943956871780225
+2025-07-09 15:52:57,277|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|ME|0.9969816833953274
+2025-07-09 15:52:57,383|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|MEX|0.3487709339504937
+2025-07-09 15:52:57,581|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|NAF|0.5908644706776868
+2025-07-09 15:52:58,081|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|OCE|0.13559556841932544
+2025-07-09 15:52:58,737|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|RCAM|0.4793007666373276
+2025-07-09 15:52:59,208|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|RSAF|0.2894452891676225
+2025-07-09 15:52:59,601|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|RSAM|0.34608911129972236
+2025-07-09 15:52:59,807|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|RSAS|0.8217210793985193
+2025-07-09 15:52:59,974|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|RUS|0.6987563433944567
+2025-07-09 15:53:00,063|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|SAF|0.10134183446611797
+2025-07-09 15:53:00,415|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|SEAS|0.7146961552728246
+2025-07-09 15:53:00,574|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|STAN|0.2408496661216736
+2025-07-09 15:53:00,664|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|TUR|0.32695487307135324
+2025-07-09 15:53:00,794|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|UKR|0.2768625120982074
+2025-07-09 15:53:02,211|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|USA|0.9999765001539216
+2025-07-09 15:53:02,699|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|WAF|0.8089224813585134
+2025-07-09 15:53:02,893|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|WEU|0.8414685962936272
+2025-07-09 15:53:02,967|biomass|INFO|created|image|SSP2-RCP26|2037|market for biomass, used as fuel|World|0.6476510563596325
+2025-07-09 15:59:40,886|biomass|INFO|empty|image|SSP2-RCP26|2040|supply of forest residue|US|
+2025-07-09 15:59:40,887|biomass|INFO|empty|image|SSP2-RCP26|2040|supply of forest residue|RER|
+2025-07-09 15:59:40,888|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|BRA|
+2025-07-09 15:59:40,888|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|CAN|
+2025-07-09 15:59:40,888|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|CEU|
+2025-07-09 15:59:40,888|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|CHN|
+2025-07-09 15:59:40,888|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|EAF|
+2025-07-09 15:59:40,888|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|INDIA|
+2025-07-09 15:59:40,888|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|INDO|
+2025-07-09 15:59:40,888|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|JAP|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|KOR|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|ME|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|MEX|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|NAF|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|OCE|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|RCAM|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|RSAF|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|RSAM|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|RSAS|
+2025-07-09 15:59:40,889|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|RUS|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|SAF|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|SEAS|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|STAN|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|TUR|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|UKR|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|USA|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|WAF|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|WEU|
+2025-07-09 15:59:40,890|biomass|INFO|created|image|SSP2-RCP26|2040|supply of forest residue|World|
+2025-07-09 15:59:41,518|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|BRA|0.3006753917868118
+2025-07-09 15:59:41,627|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|CAN|0.7615394698842124
+2025-07-09 15:59:42,031|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|CEU|0.6130986422559749
+2025-07-09 15:59:43,484|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|CHN|0.9090396199846638
+2025-07-09 15:59:43,768|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|EAF|0.28272130728757716
+2025-07-09 15:59:44,418|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|INDIA|0.7057214318910809
+2025-07-09 15:59:44,510|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|INDO|0.7354868090971426
+2025-07-09 15:59:44,527|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|JAP|1.0
+2025-07-09 15:59:44,550|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|KOR|1.0
+2025-07-09 15:59:44,810|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|ME|0.9986766375110429
+2025-07-09 15:59:44,871|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|MEX|0.25827493037269317
+2025-07-09 15:59:45,012|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|NAF|0.65192047258766
+2025-07-09 15:59:45,410|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|OCE|0.08906604998725623
+2025-07-09 15:59:46,426|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|RCAM|0.5168341364308975
+2025-07-09 15:59:46,925|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|RSAF|0.26485035255544626
+2025-07-09 15:59:47,271|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|RSAM|0.40789428129890876
+2025-07-09 15:59:47,462|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|RSAS|0.8210191098158565
+2025-07-09 15:59:47,654|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|RUS|0.7397045862591527
+2025-07-09 15:59:47,746|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|SAF|0.1167747521951134
+2025-07-09 15:59:48,112|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|SEAS|0.7555066897454362
+2025-07-09 15:59:48,277|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|STAN|0.31483001578613307
+2025-07-09 15:59:48,358|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|TUR|0.3790592978377597
+2025-07-09 15:59:48,481|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|UKR|0.28348269178537944
+2025-07-09 15:59:49,896|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|USA|0.9999857313385164
+2025-07-09 15:59:50,369|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|WAF|0.7683485065698356
+2025-07-09 15:59:50,518|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|WEU|0.8808932420693824
+2025-07-09 15:59:50,583|biomass|INFO|created|image|SSP2-RCP26|2040|market for biomass, used as fuel|World|0.6571215034314554
+2025-07-09 16:06:39,524|biomass|INFO|empty|image|SSP2-RCP26|2045|supply of forest residue|US|
+2025-07-09 16:06:39,525|biomass|INFO|empty|image|SSP2-RCP26|2045|supply of forest residue|RER|
+2025-07-09 16:06:39,526|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|BRA|
+2025-07-09 16:06:39,526|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|CAN|
+2025-07-09 16:06:39,526|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|CEU|
+2025-07-09 16:06:39,526|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|CHN|
+2025-07-09 16:06:39,526|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|EAF|
+2025-07-09 16:06:39,526|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|INDIA|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|INDO|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|JAP|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|KOR|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|ME|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|MEX|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|NAF|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|OCE|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|RCAM|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|RSAF|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|RSAM|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|RSAS|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|RUS|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|SAF|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|SEAS|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|STAN|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|TUR|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|UKR|
+2025-07-09 16:06:39,527|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|USA|
+2025-07-09 16:06:39,528|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|WAF|
+2025-07-09 16:06:39,528|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|WEU|
+2025-07-09 16:06:39,528|biomass|INFO|created|image|SSP2-RCP26|2045|supply of forest residue|World|
+2025-07-09 16:06:40,093|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|BRA|0.33319845174842433
+2025-07-09 16:06:40,187|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|CAN|0.7038289596143226
+2025-07-09 16:06:40,524|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|CEU|0.6769167956091628
+2025-07-09 16:06:41,929|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|CHN|0.904339711324709
+2025-07-09 16:06:42,212|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|EAF|0.29138610149281946
+2025-07-09 16:06:42,894|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|INDIA|0.7051791637368605
+2025-07-09 16:06:42,993|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|INDO|0.7382296651576988
+2025-07-09 16:06:43,010|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|JAP|1.0
+2025-07-09 16:06:43,029|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|KOR|1.0
+2025-07-09 16:06:43,276|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|ME|0.9995850352674118
+2025-07-09 16:06:43,341|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|MEX|0.20058416997570114
+2025-07-09 16:06:43,479|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|NAF|0.7681123305379334
+2025-07-09 16:06:43,846|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|OCE|0.07495165826238293
+2025-07-09 16:06:44,382|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|RCAM|0.5688726434396703
+2025-07-09 16:06:44,717|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|RSAF|0.19758564697247222
+2025-07-09 16:06:45,018|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|RSAM|0.4296573461200893
+2025-07-09 16:06:45,179|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|RSAS|0.8694796257064854
+2025-07-09 16:06:45,310|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|RUS|0.7849218548495175
+2025-07-09 16:06:45,374|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|SAF|0.16396492551575412
+2025-07-09 16:06:45,683|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|SEAS|0.7779541088537327
+2025-07-09 16:06:45,832|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|STAN|0.4221820258554387
+2025-07-09 16:06:45,901|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|TUR|0.4086089294359487
+2025-07-09 16:06:45,999|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|UKR|0.3442781010255468
+2025-07-09 16:06:47,296|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|USA|0.9122112162546917
+2025-07-09 16:06:47,729|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|WAF|0.6971381615688574
+2025-07-09 16:06:47,866|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|WEU|0.8824185982441446
+2025-07-09 16:06:47,923|biomass|INFO|created|image|SSP2-RCP26|2045|market for biomass, used as fuel|World|0.6455792949889628
+2025-07-09 16:12:41,649|biomass|INFO|empty|image|SSP2-RCP19|2023|supply of forest residue|US|
+2025-07-09 16:12:41,661|biomass|INFO|empty|image|SSP2-RCP19|2023|supply of forest residue|RER|
+2025-07-09 16:12:41,661|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|BRA|
+2025-07-09 16:12:41,661|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|CAN|
+2025-07-09 16:12:41,661|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|CEU|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|CHN|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|EAF|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|INDIA|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|INDO|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|JAP|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|KOR|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|ME|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|MEX|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|NAF|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|OCE|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|RCAM|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|RSAF|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|RSAM|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|RSAS|
+2025-07-09 16:12:41,662|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|RUS|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|SAF|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|SEAS|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|STAN|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|TUR|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|UKR|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|USA|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|WAF|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|WEU|
+2025-07-09 16:12:41,663|biomass|INFO|created|image|SSP2-RCP19|2023|supply of forest residue|World|
+2025-07-09 16:12:42,179|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|BRA|0.22799105081920024
+2025-07-09 16:12:42,282|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|CAN|0.7649388828024554
+2025-07-09 16:12:42,624|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|CEU|0.6623458814942297
+2025-07-09 16:12:43,936|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|CHN|0.6742403993062379
+2025-07-09 16:12:44,206|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|EAF|0.20658792151442223
+2025-07-09 16:12:44,888|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|INDIA|0.47896465067876465
+2025-07-09 16:12:44,992|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|INDO|0.16811565512640264
+2025-07-09 16:12:45,020|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|JAP|1.0
+2025-07-09 16:12:45,048|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|KOR|1.0
+2025-07-09 16:12:45,075|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|ME|1.0
+2025-07-09 16:12:45,150|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|MEX|0.9974466451210344
+2025-07-09 16:12:45,299|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|NAF|0.9110231253124765
+2025-07-09 16:12:45,661|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|OCE|0.7818213289389323
+2025-07-09 16:12:46,184|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|RCAM|0.37020420033824347
+2025-07-09 16:12:46,209|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 16:12:46,495|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|RSAM|0.2063718017254202
+2025-07-09 16:12:46,656|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|RSAS|0.8255271567551268
+2025-07-09 16:12:46,787|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|RUS|0.7319338394652941
+2025-07-09 16:12:46,858|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|SAF|0.08886618052423037
+2025-07-09 16:12:47,158|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|SEAS|0.6301166005716379
+2025-07-09 16:12:47,291|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|STAN|0.11095662206767827
+2025-07-09 16:12:47,367|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|TUR|0.5256832599417112
+2025-07-09 16:12:47,494|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|UKR|0.31357576239213925
+2025-07-09 16:12:48,747|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|USA|0.9991729861529184
+2025-07-09 16:12:49,190|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|WAF|0.39664722963065174
+2025-07-09 16:12:49,334|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|WEU|0.7817908592744097
+2025-07-09 16:12:49,399|biomass|INFO|created|image|SSP2-RCP19|2023|market for biomass, used as fuel|World|0.5738531393933705
+2025-07-09 16:18:53,588|biomass|INFO|empty|image|SSP2-RCP19|2025|supply of forest residue|US|
+2025-07-09 16:18:53,589|biomass|INFO|empty|image|SSP2-RCP19|2025|supply of forest residue|RER|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|BRA|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|CAN|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|CEU|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|CHN|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|EAF|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|INDIA|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|INDO|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|JAP|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|KOR|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|ME|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|MEX|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|NAF|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|OCE|
+2025-07-09 16:18:53,590|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|RCAM|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|RSAF|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|RSAM|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|RSAS|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|RUS|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|SAF|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|SEAS|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|STAN|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|TUR|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|UKR|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|USA|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|WAF|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|WEU|
+2025-07-09 16:18:53,591|biomass|INFO|created|image|SSP2-RCP19|2025|supply of forest residue|World|
+2025-07-09 16:18:54,245|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|BRA|0.32441792901128175
+2025-07-09 16:18:54,354|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|CAN|0.7137141641530311
+2025-07-09 16:18:54,689|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|CEU|0.6036271486442735
+2025-07-09 16:18:56,065|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|CHN|0.6401667732322868
+2025-07-09 16:18:56,362|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|EAF|0.19729546354296712
+2025-07-09 16:18:57,265|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|INDIA|0.4920578139092689
+2025-07-09 16:18:57,368|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|INDO|0.17346042784578053
+2025-07-09 16:18:57,387|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|JAP|1.0
+2025-07-09 16:18:57,408|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|KOR|1.0
+2025-07-09 16:18:57,428|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|ME|1.0
+2025-07-09 16:18:57,496|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|MEX|0.9981106391925694
+2025-07-09 16:18:57,632|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|NAF|0.908906743074346
+2025-07-09 16:18:58,000|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|OCE|0.8418515434244781
+2025-07-09 16:18:58,526|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|RCAM|0.3160046307842404
+2025-07-09 16:18:58,544|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 16:18:58,828|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|RSAM|0.1747702979986932
+2025-07-09 16:18:58,987|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|RSAS|0.8232795940575044
+2025-07-09 16:18:59,114|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|RUS|0.7045121050883515
+2025-07-09 16:18:59,177|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|SAF|0.11406637760326996
+2025-07-09 16:18:59,477|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|SEAS|0.6527753687518899
+2025-07-09 16:18:59,606|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|STAN|0.09529557585356625
+2025-07-09 16:18:59,679|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|TUR|0.5053557253502534
+2025-07-09 16:18:59,772|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|UKR|0.2883763484129488
+2025-07-09 16:19:00,999|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|USA|0.9996601633247696
+2025-07-09 16:19:01,450|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|WAF|0.3931029216664837
+2025-07-09 16:19:01,589|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|WEU|0.8007454975265994
+2025-07-09 16:19:01,643|biomass|INFO|created|image|SSP2-RCP19|2025|market for biomass, used as fuel|World|0.6010611635800626
+2025-07-09 16:25:41,043|biomass|INFO|empty|image|SSP2-RCP19|2030|supply of forest residue|US|
+2025-07-09 16:25:41,046|biomass|INFO|empty|image|SSP2-RCP19|2030|supply of forest residue|RER|
+2025-07-09 16:25:41,046|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|BRA|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|CAN|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|CEU|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|CHN|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|EAF|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|INDIA|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|INDO|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|JAP|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|KOR|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|ME|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|MEX|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|NAF|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|OCE|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|RCAM|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|RSAF|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|RSAM|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|RSAS|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|RUS|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|SAF|
+2025-07-09 16:25:41,047|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|SEAS|
+2025-07-09 16:25:41,048|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|STAN|
+2025-07-09 16:25:41,048|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|TUR|
+2025-07-09 16:25:41,048|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|UKR|
+2025-07-09 16:25:41,048|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|USA|
+2025-07-09 16:25:41,048|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|WAF|
+2025-07-09 16:25:41,048|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|WEU|
+2025-07-09 16:25:41,048|biomass|INFO|created|image|SSP2-RCP19|2030|supply of forest residue|World|
+2025-07-09 16:25:41,603|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|BRA|0.2182981202966338
+2025-07-09 16:25:41,696|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|CAN|0.621507374359178
+2025-07-09 16:25:42,014|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|CEU|0.4330133293627579
+2025-07-09 16:25:43,291|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|CHN|0.45775265208799976
+2025-07-09 16:25:43,552|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|EAF|0.37810968781891385
+2025-07-09 16:25:44,170|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|INDIA|0.37066025186740387
+2025-07-09 16:25:44,262|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|INDO|0.4990137758937134
+2025-07-09 16:25:44,279|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|JAP|1.0
+2025-07-09 16:25:44,295|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|KOR|1.0
+2025-07-09 16:25:44,527|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|ME|0.9028824549285871
+2025-07-09 16:25:44,588|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|MEX|0.5993407534962208
+2025-07-09 16:25:44,719|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|NAF|0.8984706347033021
+2025-07-09 16:25:45,066|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|OCE|0.7990731139215107
+2025-07-09 16:25:45,571|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|RCAM|0.23093926557859645
+2025-07-09 16:25:45,588|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 16:25:45,868|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|RSAM|0.11452303904238398
+2025-07-09 16:25:46,015|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|RSAS|0.735286527243957
+2025-07-09 16:25:46,135|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|RUS|0.6909127963134499
+2025-07-09 16:25:46,195|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|SAF|0.045303432499748025
+2025-07-09 16:25:46,470|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|SEAS|0.5060062079354604
+2025-07-09 16:25:46,588|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|STAN|0.12832718709744534
+2025-07-09 16:25:46,650|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|TUR|0.3299370186288659
+2025-07-09 16:25:46,740|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|UKR|0.21861985002478737
+2025-07-09 16:25:47,889|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|USA|0.9998303655930963
+2025-07-09 16:25:48,295|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|WAF|0.8054364991870706
+2025-07-09 16:25:48,428|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|WEU|0.7931247273066377
+2025-07-09 16:25:48,490|biomass|INFO|created|image|SSP2-RCP19|2030|market for biomass, used as fuel|World|0.49775532093330926
+2025-07-09 16:35:54,655|biomass|INFO|empty|image|SSP2-RCP19|2035|supply of forest residue|US|
+2025-07-09 16:35:54,662|biomass|INFO|empty|image|SSP2-RCP19|2035|supply of forest residue|RER|
+2025-07-09 16:35:54,663|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|BRA|
+2025-07-09 16:35:54,664|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|CAN|
+2025-07-09 16:35:54,664|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|CEU|
+2025-07-09 16:35:54,664|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|CHN|
+2025-07-09 16:35:54,664|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|EAF|
+2025-07-09 16:35:54,664|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|INDIA|
+2025-07-09 16:35:54,665|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|INDO|
+2025-07-09 16:35:54,665|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|JAP|
+2025-07-09 16:35:54,665|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|KOR|
+2025-07-09 16:35:54,665|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|ME|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|MEX|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|NAF|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|OCE|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|RCAM|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|RSAF|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|RSAM|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|RSAS|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|RUS|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|SAF|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|SEAS|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|STAN|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|TUR|
+2025-07-09 16:35:54,666|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|UKR|
+2025-07-09 16:35:54,667|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|USA|
+2025-07-09 16:35:54,667|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|WAF|
+2025-07-09 16:35:54,667|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|WEU|
+2025-07-09 16:35:54,667|biomass|INFO|created|image|SSP2-RCP19|2035|supply of forest residue|World|
+2025-07-09 16:35:55,515|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|BRA|0.20290967897562026
+2025-07-09 16:35:55,650|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|CAN|0.7675139629630825
+2025-07-09 16:35:56,253|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|CEU|0.48016730250759715
+2025-07-09 16:35:58,465|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|CHN|0.6670717890194031
+2025-07-09 16:35:58,922|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|EAF|0.23399244247784198
+2025-07-09 16:35:59,947|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|INDIA|0.3846713465925657
+2025-07-09 16:36:00,064|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|INDO|0.5710277207386136
+2025-07-09 16:36:00,091|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|JAP|1.0
+2025-07-09 16:36:00,220|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|KOR|0.9058657922872494
+2025-07-09 16:36:00,590|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|ME|0.8997114024733611
+2025-07-09 16:36:00,703|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|MEX|0.10540603793818112
+2025-07-09 16:36:00,967|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|NAF|0.7943134134815147
+2025-07-09 16:36:01,735|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|OCE|0.12080871052494103
+2025-07-09 16:36:03,066|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|RCAM|0.2741137666915748
+2025-07-09 16:36:03,651|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|RSAF|0.059194456720276546
+2025-07-09 16:36:04,257|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|RSAM|0.1970376050158251
+2025-07-09 16:36:04,496|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|RSAS|0.5820335912254663
+2025-07-09 16:36:04,725|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|RUS|0.7464023360512018
+2025-07-09 16:36:04,819|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|SAF|0.05826188055995069
+2025-07-09 16:36:05,285|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|SEAS|0.52543719542504
+2025-07-09 16:36:05,508|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|STAN|0.13541292844008893
+2025-07-09 16:36:05,633|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|TUR|0.25055486106113484
+2025-07-09 16:36:05,805|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|UKR|0.1312788415832024
+2025-07-09 16:36:07,864|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|USA|0.9992223716939536
+2025-07-09 16:36:08,560|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|WAF|0.8109581176445294
+2025-07-09 16:36:08,785|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|WEU|0.8731227231392199
+2025-07-09 16:36:08,863|biomass|INFO|created|image|SSP2-RCP19|2035|market for biomass, used as fuel|World|0.5185314533257275
+2025-07-09 16:43:58,692|biomass|INFO|empty|image|SSP2-RCP19|2037|supply of forest residue|US|
+2025-07-09 16:43:58,692|biomass|INFO|empty|image|SSP2-RCP19|2037|supply of forest residue|RER|
+2025-07-09 16:43:58,693|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|BRA|
+2025-07-09 16:43:58,693|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|CAN|
+2025-07-09 16:43:58,693|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|CEU|
+2025-07-09 16:43:58,693|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|CHN|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|EAF|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|INDIA|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|INDO|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|JAP|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|KOR|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|ME|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|MEX|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|NAF|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|OCE|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|RCAM|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|RSAF|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|RSAM|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|RSAS|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|RUS|
+2025-07-09 16:43:58,694|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|SAF|
+2025-07-09 16:43:58,695|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|SEAS|
+2025-07-09 16:43:58,695|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|STAN|
+2025-07-09 16:43:58,695|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|TUR|
+2025-07-09 16:43:58,695|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|UKR|
+2025-07-09 16:43:58,695|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|USA|
+2025-07-09 16:43:58,695|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|WAF|
+2025-07-09 16:43:58,695|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|WEU|
+2025-07-09 16:43:58,695|biomass|INFO|created|image|SSP2-RCP19|2037|supply of forest residue|World|
+2025-07-09 16:43:59,274|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|BRA|0.2169590784541092
+2025-07-09 16:43:59,385|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|CAN|0.7954085959106963
+2025-07-09 16:43:59,767|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|CEU|0.6340504398487536
+2025-07-09 16:44:01,195|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|CHN|0.7359382054304148
+2025-07-09 16:44:01,494|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|EAF|0.22099489520279172
+2025-07-09 16:44:02,179|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|INDIA|0.45989857563361075
+2025-07-09 16:44:02,282|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|INDO|0.5967640275143659
+2025-07-09 16:44:02,308|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|JAP|1.0
+2025-07-09 16:44:02,399|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|KOR|0.9542017638607461
+2025-07-09 16:44:02,665|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|ME|0.9250226563538112
+2025-07-09 16:44:02,746|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|MEX|0.09754703055161583
+2025-07-09 16:44:02,896|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|NAF|0.8196159811030734
+2025-07-09 16:44:03,300|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|OCE|0.12098716618121624
+2025-07-09 16:44:03,878|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|RCAM|0.30532561532589997
+2025-07-09 16:44:04,210|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|RSAF|0.05569445929885977
+2025-07-09 16:44:04,538|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|RSAM|0.25667596691964367
+2025-07-09 16:44:04,710|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|RSAS|0.6589299373179957
+2025-07-09 16:44:04,848|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|RUS|0.751355983866381
+2025-07-09 16:44:04,924|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|SAF|0.08104102402614957
+2025-07-09 16:44:05,237|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|SEAS|0.5728786127083251
+2025-07-09 16:44:05,381|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|STAN|0.1301652284373633
+2025-07-09 16:44:05,457|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|TUR|0.21709445346411463
+2025-07-09 16:44:05,566|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|UKR|0.18493511464038107
+2025-07-09 16:44:06,858|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|USA|0.9278296726803709
+2025-07-09 16:44:07,312|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|WAF|0.7745292202082793
+2025-07-09 16:44:07,475|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|WEU|0.8745956176597808
+2025-07-09 16:44:07,543|biomass|INFO|created|image|SSP2-RCP19|2037|market for biomass, used as fuel|World|0.5416463228150841
+2025-07-09 16:56:57,734|biomass|INFO|empty|image|SSP2-RCP19|2040|supply of forest residue|US|
+2025-07-09 16:56:57,743|biomass|INFO|empty|image|SSP2-RCP19|2040|supply of forest residue|RER|
+2025-07-09 16:56:57,744|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|BRA|
+2025-07-09 16:56:57,744|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|CAN|
+2025-07-09 16:56:57,744|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|CEU|
+2025-07-09 16:56:57,744|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|CHN|
+2025-07-09 16:56:57,744|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|EAF|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|INDIA|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|INDO|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|JAP|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|KOR|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|ME|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|MEX|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|NAF|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|OCE|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|RCAM|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|RSAF|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|RSAM|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|RSAS|
+2025-07-09 16:56:57,745|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|RUS|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|SAF|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|SEAS|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|STAN|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|TUR|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|UKR|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|USA|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|WAF|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|WEU|
+2025-07-09 16:56:57,746|biomass|INFO|created|image|SSP2-RCP19|2040|supply of forest residue|World|
+2025-07-09 16:56:58,421|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|BRA|0.23773130201746318
+2025-07-09 16:56:58,538|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|CAN|0.8325178122857966
+2025-07-09 16:56:58,972|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|CEU|0.7563757566235334
+2025-07-09 16:57:00,700|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|CHN|0.8199180799067735
+2025-07-09 16:57:01,078|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|EAF|0.2088092739579662
+2025-07-09 16:57:01,889|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|INDIA|0.5560721973954234
+2025-07-09 16:57:02,009|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|INDO|0.6287797062796405
+2025-07-09 16:57:02,034|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|JAP|1.0
+2025-07-09 16:57:02,060|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|KOR|1.0
+2025-07-09 16:57:02,373|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|ME|0.957482269931255
+2025-07-09 16:57:02,450|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|MEX|0.0890189477652519
+2025-07-09 16:57:02,631|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|NAF|0.8463872315274003
+2025-07-09 16:57:03,075|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|OCE|0.121141995529624
+2025-07-09 16:57:03,694|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|RCAM|0.3546646620992472
+2025-07-09 16:57:04,045|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|RSAF|0.054271073956452566
+2025-07-09 16:57:04,351|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|RSAM|0.34815869926604204
+2025-07-09 16:57:04,505|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|RSAS|0.7287224787522358
+2025-07-09 16:57:04,629|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|RUS|0.7585979335547332
+2025-07-09 16:57:04,697|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|SAF|0.11288102064458956
+2025-07-09 16:57:04,979|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|SEAS|0.6278988127074774
+2025-07-09 16:57:05,098|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|STAN|0.12023317563566867
+2025-07-09 16:57:05,164|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|TUR|0.1572945463386005
+2025-07-09 16:57:05,259|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|UKR|0.2449017497346967
+2025-07-09 16:57:06,491|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|USA|0.8513985706226016
+2025-07-09 16:57:06,932|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|WAF|0.7382150187656384
+2025-07-09 16:57:07,077|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|WEU|0.8764663466412631
+2025-07-09 16:57:07,139|biomass|INFO|created|image|SSP2-RCP19|2040|market for biomass, used as fuel|World|0.5694864820560903
+2025-07-09 17:02:09,735|biomass|INFO|empty|image|SSP2-RCP19|2045|supply of forest residue|US|
+2025-07-09 17:02:09,735|biomass|INFO|empty|image|SSP2-RCP19|2045|supply of forest residue|RER|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|BRA|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|CAN|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|CEU|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|CHN|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|EAF|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|INDIA|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|INDO|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|JAP|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|KOR|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|ME|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|MEX|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|NAF|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|OCE|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|RCAM|
+2025-07-09 17:02:09,736|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|RSAF|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|RSAM|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|RSAS|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|RUS|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|SAF|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|SEAS|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|STAN|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|TUR|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|UKR|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|USA|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|WAF|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|WEU|
+2025-07-09 17:02:09,738|biomass|INFO|created|image|SSP2-RCP19|2045|supply of forest residue|World|
+2025-07-09 17:02:10,270|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|BRA|0.2911265705806095
+2025-07-09 17:02:10,360|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|CAN|0.871278924711819
+2025-07-09 17:02:10,688|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|CEU|0.7894586602017556
+2025-07-09 17:02:12,084|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|CHN|0.8626627310148307
+2025-07-09 17:02:12,431|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|EAF|0.1944645213712576
+2025-07-09 17:02:13,118|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|INDIA|0.6035443464500244
+2025-07-09 17:02:13,208|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|INDO|0.6917378312871135
+2025-07-09 17:02:13,228|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|JAP|1.0
+2025-07-09 17:02:13,247|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|KOR|1.0
+2025-07-09 17:02:13,486|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|ME|0.9806512968655551
+2025-07-09 17:02:13,551|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|MEX|0.1179193326790441
+2025-07-09 17:02:13,689|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|NAF|0.8539056542314594
+2025-07-09 17:02:14,040|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|OCE|0.16330463638819326
+2025-07-09 17:02:14,569|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|RCAM|0.3663842331063817
+2025-07-09 17:02:14,876|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|RSAF|0.06827503065669899
+2025-07-09 17:02:15,164|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|RSAM|0.4279859741275112
+2025-07-09 17:02:15,314|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|RSAS|0.8201211280747905
+2025-07-09 17:02:15,433|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|RUS|0.7955313924652937
+2025-07-09 17:02:15,495|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|SAF|0.13084127329674708
+2025-07-09 17:02:15,766|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|SEAS|0.695098376375609
+2025-07-09 17:02:15,886|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|STAN|0.13668628174770547
+2025-07-09 17:02:15,951|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|TUR|0.061068636299766874
+2025-07-09 17:02:16,039|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|UKR|0.36470805272090595
+2025-07-09 17:02:17,225|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|USA|0.8297175826454973
+2025-07-09 17:02:17,633|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|WAF|0.7261605394734302
+2025-07-09 17:02:17,767|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|WEU|0.866337175023078
+2025-07-09 17:02:17,819|biomass|INFO|created|image|SSP2-RCP19|2045|market for biomass, used as fuel|World|0.608378224381513
+2025-07-09 17:17:38,242|biomass|INFO|empty|image|SSP2-Base|2023|supply of forest residue|US|
+2025-07-09 17:17:38,245|biomass|INFO|empty|image|SSP2-Base|2023|supply of forest residue|RER|
+2025-07-09 17:17:38,245|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|BRA|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|CAN|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|CEU|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|CHN|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|EAF|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|INDIA|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|INDO|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|JAP|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|KOR|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|ME|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|MEX|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|NAF|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|OCE|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|RCAM|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|RSAF|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|RSAM|
+2025-07-09 17:17:38,246|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|RSAS|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|RUS|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|SAF|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|SEAS|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|STAN|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|TUR|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|UKR|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|USA|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|WAF|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|WEU|
+2025-07-09 17:17:38,247|biomass|INFO|created|image|SSP2-Base|2023|supply of forest residue|World|
+2025-07-09 17:17:38,771|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|BRA|0.15069859167761074
+2025-07-09 17:17:38,874|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|CAN|0.7572383169675116
+2025-07-09 17:17:39,210|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|CEU|0.6804599838625519
+2025-07-09 17:17:40,530|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|CHN|0.642991340347049
+2025-07-09 17:17:40,812|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|EAF|0.18977374550372975
+2025-07-09 17:17:41,479|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|INDIA|0.3877364966643873
+2025-07-09 17:17:41,579|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|INDO|0.0649399634711516
+2025-07-09 17:17:41,608|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|JAP|1.0
+2025-07-09 17:17:41,637|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|KOR|1.0
+2025-07-09 17:17:41,665|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|ME|1.0
+2025-07-09 17:17:41,738|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|MEX|0.9892008044266071
+2025-07-09 17:17:41,882|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|NAF|0.4638152828886386
+2025-07-09 17:17:42,250|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|OCE|0.5807930987538824
+2025-07-09 17:17:42,813|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|RCAM|0.2898649261450004
+2025-07-09 17:17:42,846|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 17:17:43,162|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|RSAM|0.4816252252258598
+2025-07-09 17:17:43,336|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|RSAS|0.4172017848198681
+2025-07-09 17:17:43,477|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|RUS|0.6465751872622914
+2025-07-09 17:17:43,558|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|SAF|0.07242213462132606
+2025-07-09 17:17:43,872|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|SEAS|0.47467863903637086
+2025-07-09 17:17:44,014|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|STAN|0.07645293054436106
+2025-07-09 17:17:44,093|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|TUR|0.1255357096579302
+2025-07-09 17:17:44,205|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|UKR|0.21590091877039005
+2025-07-09 17:17:45,491|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|USA|0.9985075008755456
+2025-07-09 17:17:45,907|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|WAF|0.19636918815974025
+2025-07-09 17:17:46,046|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|WEU|0.7140513197098408
+2025-07-09 17:17:46,106|biomass|INFO|created|image|SSP2-Base|2023|market for biomass, used as fuel|World|0.467860760736496
+2025-07-09 17:34:40,389|biomass|INFO|empty|image|SSP2-Base|2025|supply of forest residue|US|
+2025-07-09 17:34:40,707|biomass|INFO|empty|image|SSP2-Base|2025|supply of forest residue|RER|
+2025-07-09 17:34:40,708|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|BRA|
+2025-07-09 17:34:40,739|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|CAN|
+2025-07-09 17:34:40,740|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|CEU|
+2025-07-09 17:34:40,740|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|CHN|
+2025-07-09 17:34:40,740|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|EAF|
+2025-07-09 17:34:40,740|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|INDIA|
+2025-07-09 17:34:40,740|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|INDO|
+2025-07-09 17:34:40,740|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|JAP|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|KOR|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|ME|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|MEX|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|NAF|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|OCE|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|RCAM|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|RSAF|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|RSAM|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|RSAS|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|RUS|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|SAF|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|SEAS|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|STAN|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|TUR|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|UKR|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|USA|
+2025-07-09 17:34:40,741|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|WAF|
+2025-07-09 17:34:40,742|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|WEU|
+2025-07-09 17:34:40,742|biomass|INFO|created|image|SSP2-Base|2025|supply of forest residue|World|
+2025-07-09 17:34:41,401|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|BRA|0.1643239883255553
+2025-07-09 17:34:41,503|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|CAN|0.6841099514919888
+2025-07-09 17:34:41,843|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|CEU|0.6412108943324089
+2025-07-09 17:34:43,222|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|CHN|0.5480616710604771
+2025-07-09 17:34:43,488|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|EAF|0.17807115320831043
+2025-07-09 17:34:44,141|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|INDIA|0.3523946114333253
+2025-07-09 17:34:44,235|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|INDO|0.052122571950837866
+2025-07-09 17:34:44,255|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|JAP|1.0
+2025-07-09 17:34:44,272|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|KOR|1.0
+2025-07-09 17:34:44,290|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|ME|1.0
+2025-07-09 17:34:44,355|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|MEX|0.9875036240387668
+2025-07-09 17:34:44,492|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|NAF|0.3424303145577686
+2025-07-09 17:34:44,861|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|OCE|0.5547024360744689
+2025-07-09 17:34:45,384|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|RCAM|0.20400502737104287
+2025-07-09 17:34:45,404|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 17:34:45,727|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|RSAM|0.46514661899392334
+2025-07-09 17:34:45,871|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|RSAS|0.3710121529097372
+2025-07-09 17:34:45,987|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|RUS|0.5715286678514576
+2025-07-09 17:34:46,050|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|SAF|0.09120621832767815
+2025-07-09 17:34:46,325|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|SEAS|0.43424152743766326
+2025-07-09 17:34:46,445|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|STAN|0.05591112144456206
+2025-07-09 17:34:46,509|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|TUR|0.04362886496977878
+2025-07-09 17:34:46,599|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|UKR|0.17183459413941546
+2025-07-09 17:34:47,814|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|USA|0.9992238204096305
+2025-07-09 17:34:48,227|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|WAF|0.15393585158036852
+2025-07-09 17:34:48,370|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|WEU|0.6844238422600475
+2025-07-09 17:34:48,441|biomass|INFO|created|image|SSP2-Base|2025|market for biomass, used as fuel|World|0.4425241986351038
+2025-07-09 17:40:22,999|biomass|INFO|empty|image|SSP2-Base|2030|supply of forest residue|US|
+2025-07-09 17:40:23,000|biomass|INFO|empty|image|SSP2-Base|2030|supply of forest residue|RER|
+2025-07-09 17:40:23,001|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|BRA|
+2025-07-09 17:40:23,001|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|CAN|
+2025-07-09 17:40:23,001|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|CEU|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|CHN|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|EAF|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|INDIA|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|INDO|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|JAP|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|KOR|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|ME|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|MEX|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|NAF|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|OCE|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|RCAM|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|RSAF|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|RSAM|
+2025-07-09 17:40:23,002|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|RSAS|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|RUS|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|SAF|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|SEAS|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|STAN|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|TUR|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|UKR|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|USA|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|WAF|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|WEU|
+2025-07-09 17:40:23,003|biomass|INFO|created|image|SSP2-Base|2030|supply of forest residue|World|
+2025-07-09 17:40:23,518|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|BRA|0.1763028650468944
+2025-07-09 17:40:23,614|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|CAN|0.5795094604365524
+2025-07-09 17:40:23,935|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|CEU|0.6629155982600826
+2025-07-09 17:40:25,232|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|CHN|0.2966731206179676
+2025-07-09 17:40:25,496|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|EAF|0.34706522479747753
+2025-07-09 17:40:26,136|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|INDIA|0.2597404652813484
+2025-07-09 17:40:26,227|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|INDO|0.0342323230247595
+2025-07-09 17:40:26,246|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|JAP|1.0
+2025-07-09 17:40:26,322|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|KOR|0.6042841096379344
+2025-07-09 17:40:26,339|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|ME|1.0
+2025-07-09 17:40:26,403|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|MEX|0.6942735688689456
+2025-07-09 17:40:26,422|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|NAF|1.0
+2025-07-09 17:40:26,779|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|OCE|0.5743274222757261
+2025-07-09 17:40:27,286|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|RCAM|0.24878654253425836
+2025-07-09 17:40:27,306|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|RSAF|1.0
+2025-07-09 17:40:27,588|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|RSAM|0.4006605149869764
+2025-07-09 17:40:27,740|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|RSAS|0.2867872489535565
+2025-07-09 17:40:27,860|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|RUS|0.6030907575674693
+2025-07-09 17:40:27,920|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|SAF|0.14859978680852534
+2025-07-09 17:40:28,200|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|SEAS|0.350607958701875
+2025-07-09 17:40:28,323|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|STAN|0.07872107588248783
+2025-07-09 17:40:28,386|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|TUR|0.04345638091339046
+2025-07-09 17:40:28,475|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|UKR|0.1644892281997269
+2025-07-09 17:40:29,632|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|USA|0.9997659146262856
+2025-07-09 17:40:30,038|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|WAF|0.2041115816083468
+2025-07-09 17:40:30,171|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|WEU|0.6330540676063698
+2025-07-09 17:40:30,222|biomass|INFO|created|image|SSP2-Base|2030|market for biomass, used as fuel|World|0.3854234921444635
+2025-07-09 17:59:56,042|biomass|INFO|empty|image|SSP2-Base|2035|supply of forest residue|US|
+2025-07-09 17:59:56,045|biomass|INFO|empty|image|SSP2-Base|2035|supply of forest residue|RER|
+2025-07-09 17:59:56,046|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|BRA|
+2025-07-09 17:59:56,046|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|CAN|
+2025-07-09 17:59:56,046|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|CEU|
+2025-07-09 17:59:56,046|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|CHN|
+2025-07-09 17:59:56,046|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|EAF|
+2025-07-09 17:59:56,046|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|INDIA|
+2025-07-09 17:59:56,046|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|INDO|
+2025-07-09 17:59:56,046|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|JAP|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|KOR|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|ME|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|MEX|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|NAF|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|OCE|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|RCAM|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|RSAF|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|RSAM|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|RSAS|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|RUS|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|SAF|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|SEAS|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|STAN|
+2025-07-09 17:59:56,047|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|TUR|
+2025-07-09 17:59:56,048|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|UKR|
+2025-07-09 17:59:56,048|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|USA|
+2025-07-09 17:59:56,048|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|WAF|
+2025-07-09 17:59:56,048|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|WEU|
+2025-07-09 17:59:56,048|biomass|INFO|created|image|SSP2-Base|2035|supply of forest residue|World|
+2025-07-09 17:59:56,586|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|BRA|0.21931273566901122
+2025-07-09 17:59:56,683|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|CAN|0.5496942971700791
+2025-07-09 17:59:57,013|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|CEU|0.6409477099717524
+2025-07-09 17:59:58,312|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|CHN|0.36193576324600973
+2025-07-09 17:59:58,589|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|EAF|0.4358065681985338
+2025-07-09 17:59:59,211|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|INDIA|0.3409192754908784
+2025-07-09 17:59:59,301|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|INDO|0.03325560799951119
+2025-07-09 17:59:59,362|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|JAP|0.6641916685955797
+2025-07-09 17:59:59,437|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|KOR|0.8826238858994497
+2025-07-09 17:59:59,456|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|ME|1.0
+2025-07-09 17:59:59,519|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|MEX|0.36797423533467355
+2025-07-09 17:59:59,536|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|NAF|1.0
+2025-07-09 17:59:59,888|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|OCE|0.12977968494948178
+2025-07-09 18:00:00,401|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|RCAM|0.29252094048028565
+2025-07-09 18:00:00,713|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|RSAF|0.333226460253811
+2025-07-09 18:00:01,006|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|RSAM|0.45938087555677654
+2025-07-09 18:00:01,158|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|RSAS|0.12413710807442527
+2025-07-09 18:00:01,283|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|RUS|0.2216566466608776
+2025-07-09 18:00:01,349|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|SAF|0.1807840417589852
+2025-07-09 18:00:01,633|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|SEAS|0.35757610365243614
+2025-07-09 18:00:01,756|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|STAN|0.027861721019400845
+2025-07-09 18:00:01,818|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|TUR|0.005691136842287304
+2025-07-09 18:00:01,912|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|UKR|0.18948940266715072
+2025-07-09 18:00:03,091|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|USA|0.9999343907502891
+2025-07-09 18:00:03,505|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|WAF|0.031347924182158905
+2025-07-09 18:00:03,640|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|WEU|0.6687975163661365
+2025-07-09 18:00:03,699|biomass|INFO|created|image|SSP2-Base|2035|market for biomass, used as fuel|World|0.3803300706896536
+2025-07-09 18:05:57,417|biomass|INFO|empty|image|SSP2-Base|2037|supply of forest residue|US|
+2025-07-09 18:05:57,419|biomass|INFO|empty|image|SSP2-Base|2037|supply of forest residue|RER|
+2025-07-09 18:05:57,419|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|BRA|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|CAN|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|CEU|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|CHN|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|EAF|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|INDIA|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|INDO|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|JAP|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|KOR|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|ME|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|MEX|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|NAF|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|OCE|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|RCAM|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|RSAF|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|RSAM|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|RSAS|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|RUS|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|SAF|
+2025-07-09 18:05:57,420|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|SEAS|
+2025-07-09 18:05:57,421|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|STAN|
+2025-07-09 18:05:57,421|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|TUR|
+2025-07-09 18:05:57,421|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|UKR|
+2025-07-09 18:05:57,421|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|USA|
+2025-07-09 18:05:57,421|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|WAF|
+2025-07-09 18:05:57,421|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|WEU|
+2025-07-09 18:05:57,421|biomass|INFO|created|image|SSP2-Base|2037|supply of forest residue|World|
+2025-07-09 18:05:57,939|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|BRA|0.21049892650112864
+2025-07-09 18:05:58,035|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|CAN|0.5604147626078964
+2025-07-09 18:05:58,354|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|CEU|0.6653929893816659
+2025-07-09 18:05:59,627|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|CHN|0.4273519760248579
+2025-07-09 18:05:59,891|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|EAF|0.3702130253662569
+2025-07-09 18:06:00,528|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|INDIA|0.3500669425177677
+2025-07-09 18:06:00,624|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|INDO|0.04345357967802505
+2025-07-09 18:06:00,692|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|JAP|0.7638432791561541
+2025-07-09 18:06:00,775|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|KOR|0.9178616854671535
+2025-07-09 18:06:00,800|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|ME|1.0
+2025-07-09 18:06:00,887|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|MEX|0.3758257015660985
+2025-07-09 18:06:00,916|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|NAF|1.0
+2025-07-09 18:06:01,269|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|OCE|0.07179156967219942
+2025-07-09 18:06:01,771|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|RCAM|0.376354093542784
+2025-07-09 18:06:02,074|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|RSAF|0.21118480917756072
+2025-07-09 18:06:02,354|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|RSAM|0.5112632526841313
+2025-07-09 18:06:02,507|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|RSAS|0.14444042532273677
+2025-07-09 18:06:02,630|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|RUS|0.21388081986281382
+2025-07-09 18:06:02,701|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|SAF|0.20443546171078167
+2025-07-09 18:06:02,981|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|SEAS|0.36205300392034817
+2025-07-09 18:06:03,106|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|STAN|0.02278571762726749
+2025-07-09 18:06:03,175|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|TUR|0.005246698599987028
+2025-07-09 18:06:03,274|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|UKR|0.18471604963074115
+2025-07-09 18:06:04,410|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|USA|0.9999493995936691
+2025-07-09 18:06:04,816|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|WAF|0.03946521304098725
+2025-07-09 18:06:04,956|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|WEU|0.7008152043876456
+2025-07-09 18:06:05,017|biomass|INFO|created|image|SSP2-Base|2037|market for biomass, used as fuel|World|0.37319963042841514
+2025-07-09 18:10:41,055|biomass|INFO|empty|image|SSP2-Base|2040|supply of forest residue|US|
+2025-07-09 18:10:41,056|biomass|INFO|empty|image|SSP2-Base|2040|supply of forest residue|RER|
+2025-07-09 18:10:41,056|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|BRA|
+2025-07-09 18:10:41,056|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|CAN|
+2025-07-09 18:10:41,056|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|CEU|
+2025-07-09 18:10:41,056|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|CHN|
+2025-07-09 18:10:41,056|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|EAF|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|INDIA|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|INDO|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|JAP|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|KOR|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|ME|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|MEX|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|NAF|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|OCE|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|RCAM|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|RSAF|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|RSAM|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|RSAS|
+2025-07-09 18:10:41,057|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|RUS|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|SAF|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|SEAS|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|STAN|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|TUR|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|UKR|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|USA|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|WAF|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|WEU|
+2025-07-09 18:10:41,058|biomass|INFO|created|image|SSP2-Base|2040|supply of forest residue|World|
+2025-07-09 18:10:41,555|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|BRA|0.19769314241641608
+2025-07-09 18:10:41,646|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|CAN|0.576782726003249
+2025-07-09 18:10:41,961|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|CEU|0.7046622071848577
+2025-07-09 18:10:43,209|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|CHN|0.58585881526457
+2025-07-09 18:10:43,465|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|EAF|0.3224565808341918
+2025-07-09 18:10:44,069|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|INDIA|0.36514961063476487
+2025-07-09 18:10:44,158|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|INDO|0.057127089646473124
+2025-07-09 18:10:44,218|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|JAP|0.8932244426319371
+2025-07-09 18:10:44,291|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|KOR|0.9628040123646664
+2025-07-09 18:10:44,309|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|ME|1.0
+2025-07-09 18:10:44,371|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|MEX|0.37902337812045556
+2025-07-09 18:10:44,389|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|NAF|1.0
+2025-07-09 18:10:44,726|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|OCE|0.04527628954190753
+2025-07-09 18:10:45,220|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|RCAM|0.46585903499298015
+2025-07-09 18:10:45,517|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|RSAF|0.1503185055848136
+2025-07-09 18:10:45,786|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|RSAM|0.5728260502640287
+2025-07-09 18:10:45,932|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|RSAS|0.16610533768292737
+2025-07-09 18:10:46,047|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|RUS|0.20286179093546308
+2025-07-09 18:10:46,106|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|SAF|0.23023184857945184
+2025-07-09 18:10:46,377|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|SEAS|0.3676907355449023
+2025-07-09 18:10:46,508|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|STAN|0.014290172129020628
+2025-07-09 18:10:46,591|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|TUR|0.004335988476224873
+2025-07-09 18:10:46,708|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|UKR|0.1784407593514473
+2025-07-09 18:10:47,871|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|USA|0.9999754823958619
+2025-07-09 18:10:48,267|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|WAF|0.044767543926000374
+2025-07-09 18:10:48,395|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|WEU|0.7566973719199817
+2025-07-09 18:10:48,447|biomass|INFO|created|image|SSP2-Base|2040|market for biomass, used as fuel|World|0.36415027078816553
+2025-07-09 18:35:10,777|biomass|INFO|empty|image|SSP2-Base|2045|supply of forest residue|US|
+2025-07-09 18:35:10,778|biomass|INFO|empty|image|SSP2-Base|2045|supply of forest residue|RER|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|BRA|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|CAN|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|CEU|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|CHN|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|EAF|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|INDIA|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|INDO|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|JAP|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|KOR|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|ME|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|MEX|
+2025-07-09 18:35:10,779|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|NAF|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|OCE|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|RCAM|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|RSAF|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|RSAM|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|RSAS|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|RUS|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|SAF|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|SEAS|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|STAN|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|TUR|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|UKR|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|USA|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|WAF|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|WEU|
+2025-07-09 18:35:10,780|biomass|INFO|created|image|SSP2-Base|2045|supply of forest residue|World|
+2025-07-09 18:35:11,323|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|BRA|0.18148754640184225
+2025-07-09 18:35:11,416|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|CAN|0.5634808323955214
+2025-07-09 18:35:11,763|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|CEU|0.7552319708593987
+2025-07-09 18:35:13,121|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|CHN|0.8123346518749076
+2025-07-09 18:35:13,387|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|EAF|0.3597034912605863
+2025-07-09 18:35:14,017|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|INDIA|0.14810374416844796
+2025-07-09 18:35:14,111|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|INDO|0.10208174028180969
+2025-07-09 18:35:14,173|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|JAP|0.9666891729227127
+2025-07-09 18:35:14,251|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|KOR|0.9879423579931641
+2025-07-09 18:35:14,271|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|ME|1.0
+2025-07-09 18:35:14,333|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|MEX|0.2251818829052521
+2025-07-09 18:35:14,351|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|NAF|1.0
+2025-07-09 18:35:14,708|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|OCE|0.03609777828173003
+2025-07-09 18:35:15,226|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|RCAM|0.5209174504608213
+2025-07-09 18:35:15,533|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|RSAF|0.07989686365258282
+2025-07-09 18:35:15,816|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|RSAM|0.22122859220903868
+2025-07-09 18:35:15,964|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|RSAS|0.19943211376926576
+2025-07-09 18:35:16,093|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|RUS|0.21197314942197912
+2025-07-09 18:35:16,156|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|SAF|0.28527846206193874
+2025-07-09 18:35:16,439|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|SEAS|0.41185561267229975
+2025-07-09 18:35:16,557|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|STAN|0.016480907487256165
+2025-07-09 18:35:16,622|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|TUR|0.0026574964054039262
+2025-07-09 18:35:16,715|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|UKR|0.17681184833753735
+2025-07-09 18:35:17,894|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|USA|0.9999916765195342
+2025-07-09 18:35:18,307|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|WAF|0.14706529045991823
+2025-07-09 18:35:18,441|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|WEU|0.8927723499135468
+2025-07-09 18:35:18,495|biomass|INFO|created|image|SSP2-Base|2045|market for biomass, used as fuel|World|0.3511001582315511

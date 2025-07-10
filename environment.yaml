@@ -7,7 +7,7 @@ channels:
 dependencies:
   - ipython
   - ipykernel
-  - premise==2.1.5
+  - premise[bw25]
   - brokenaxes
   - bw2data==4.0.dev46
   - bw2calc==2.0.dev23
