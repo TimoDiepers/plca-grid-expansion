@@ -1,0 +1,15 @@
+input;amount;unit
+aluminium_cast;46.5;kilogram
+copper;4394.0;kilogram
+copper_wire;121.5;kilogram
+glass_fibre;231.0;kilogram
+kraft_paper;210.5;kilogram
+paint;19.0;kilogram
+softwood;1.12;cubic meters
+porcelain;79.0;kilogram
+brass;20.5;kilogram
+steel_lowalloyed;10025.0;kilogram
+steel_hot_rolled;3800.0;kilogram
+steel_sheet;4129.0;kilogram
+transformer_oil;7750.0;kilogram
+epoxy;3.0;kilogram

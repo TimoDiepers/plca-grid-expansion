@@ -208,3 +208,133 @@
 2025-07-09 18:39:37,653|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
 2025-07-09 18:39:37,711|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
 2025-07-09 18:39:37,789|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:07:04,823|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:07:04,908|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:07:04,987|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:07:05,060|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:07:05,144|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:07:05,203|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 11:07:05,287|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:07:05,364|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:07:05,426|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 11:07:05,508|transport|INFO|empty|image|SSP2-RCP19|2035|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:12:28,322|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:12:28,403|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:12:28,510|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:12:28,598|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:12:28,684|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:12:28,749|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 11:12:28,835|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:12:28,922|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:12:28,990|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 11:12:29,080|transport|INFO|empty|image|SSP2-RCP19|2037|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:18:05,391|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:18:05,464|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:18:05,549|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:18:05,623|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:18:05,703|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:18:05,767|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 11:18:05,850|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:18:05,937|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:18:06,003|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 11:18:06,086|transport|INFO|empty|image|SSP2-RCP19|2040|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:23:33,184|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:23:33,264|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:23:33,362|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:23:33,439|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:23:33,516|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:23:33,580|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 11:23:33,667|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:23:33,747|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 11:23:33,808|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 11:23:33,887|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 14:48:38,422|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 14:48:38,523|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 14:48:38,585|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 14:48:38,672|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 14:48:38,739|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 14:48:38,820|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 14:48:38,897|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 14:48:38,980|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 14:48:39,062|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 14:48:39,142|transport|INFO|empty|image|SSP2-RCP19|2045|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:46,452|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:46,550|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:46,656|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:46,766|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:46,845|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 15:35:46,942|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:47,041|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:47,144|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:47,230|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:35:47,305|transport|INFO|empty|image|SSP2-Base|2023|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 15:41:16,117|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:41:16,204|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:41:16,286|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:41:16,367|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:41:16,430|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 15:41:16,503|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:41:16,586|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:41:16,666|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:41:16,742|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:41:16,803|transport|INFO|empty|image|SSP2-Base|2025|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 15:46:33,404|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:46:33,479|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:46:33,561|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:46:33,640|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:46:33,699|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 15:46:33,778|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:46:33,866|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:46:33,944|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:46:34,017|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:46:34,073|transport|INFO|empty|image|SSP2-Base|2030|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 15:51:25,540|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:51:25,621|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:51:25,710|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:51:25,797|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:51:25,862|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 15:51:25,931|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:51:26,007|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:51:26,087|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:51:26,161|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:51:26,224|transport|INFO|empty|image|SSP2-Base|2035|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 15:56:46,824|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:56:46,909|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:56:46,992|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:56:47,069|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:56:47,131|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 15:56:47,201|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:56:47,278|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:56:47,360|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:56:47,431|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 15:56:47,493|transport|INFO|empty|image|SSP2-Base|2037|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 16:02:00,573|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:02:00,660|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:02:00,752|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:02:00,848|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:02:00,921|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 16:02:01,009|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:02:01,101|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:02:01,200|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:02:01,289|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:02:01,358|transport|INFO|empty|image|SSP2-Base|2040|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-10 16:54:19,369|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:54:19,443|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:54:19,517|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:54:19,590|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:54:19,645|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-10 16:54:19,713|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:54:19,786|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:54:19,859|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:54:19,926|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-10 16:54:19,982|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-11 08:55:34,932|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, plugin diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-11 08:55:35,017|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-11 08:55:35,082|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, fuel cell electric, 18t gross weight, long haul|RER|
+2025-07-11 08:55:35,149|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-11 08:55:35,216|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, compressed gas, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-11 08:55:35,282|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
+2025-07-11 08:55:35,370|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-11 08:55:35,416|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, fuel cell electric, 40t gross weight, long haul|RER|
+2025-07-11 08:55:35,499|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, diesel hybrid, 40t gross weight, EURO-VI, long haul|RER|
+2025-07-11 08:55:35,566|transport|INFO|empty|image|SSP2-Base|2045|transport, freight, lorry, plugin diesel hybrid, 18t gross weight, EURO-VI, long haul|RER|
