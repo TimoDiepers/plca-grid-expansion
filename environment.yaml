@@ -1,5 +1,5 @@
 # in your terminal, run conda: conda env create -f environment.yaml
-name: plca-grid-expansion
+name: paper-plca-grid-expansion
 channels:
   - conda-forge
   - cmutel
@@ -7,13 +7,13 @@ channels:
 dependencies:
   - ipython
   - ipykernel
-  - premise==2.1.5
-  - brokenaxes
+  - premise-bw25
   - bw2data==4.0.dev46
   - bw2calc==2.0.dev23
   - brightway25
   # - brightway25_nosolver # for macOS ARM machine
   # - scikit-umfpack # for macOS ARM machine
   # - numpy==1.24 # for macOS ARM machine
+  - pip
   - pip:
     - rwthcolors
