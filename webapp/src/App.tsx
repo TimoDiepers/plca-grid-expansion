@@ -30,20 +30,20 @@ function App() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors overflow-x-hidden">
       {/* Header */}
       <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-50">
+        <div className="max-w-7xl mx-auto px-4 py-4 sm:py-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div className="min-w-0">
+              <h1 className="text-xl sm:text-3xl font-bold text-gray-900 dark:text-gray-50 truncate">
                 PLCA Grid Expansion Explorer
               </h1>
-              <p className="mt-2 text-gray-600 dark:text-gray-400">
+              <p className="mt-1 sm:mt-2 text-sm sm:text-base text-gray-600 dark:text-gray-400 truncate">
                 Prospective Life Cycle Assessment of Germany's Electricity Grid Expansion
               </p>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-shrink-0">
               {/* Theme Toggle */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -100,40 +100,48 @@ function App() {
       </header>
 
       {/* Navigation */}
-      <div className="max-w-7xl mx-auto px-4 py-4">
+      <div className="max-w-7xl mx-auto px-4 py-4 overflow-x-auto">
         <Tabs>
-          <TabsList className="bg-gray-100 dark:bg-gray-800">
+          <TabsList className="bg-gray-100 dark:bg-gray-800 flex-wrap sm:flex-nowrap w-full sm:w-auto">
             <TabsTrigger
               value="overview"
               isActive={activeTab === "overview"}
               onClick={() => setActiveTab("overview")}
+              className="flex-1 sm:flex-none text-xs sm:text-sm"
             >
-              <Layers className="w-4 h-4 mr-2" />
-              Overview
+              <Layers className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+              <span className="hidden xs:inline">Overview</span>
+              <span className="xs:hidden">Home</span>
             </TabsTrigger>
             <TabsTrigger
               value="status-quo"
               isActive={activeTab === "status-quo"}
               onClick={() => setActiveTab("status-quo")}
+              className="flex-1 sm:flex-none text-xs sm:text-sm"
             >
-              <BarChart3 className="w-4 h-4 mr-2" />
-              Grid Status Quo
+              <BarChart3 className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline">Grid Status Quo</span>
+              <span className="sm:hidden">Status</span>
             </TabsTrigger>
             <TabsTrigger
               value="expansion"
               isActive={activeTab === "expansion"}
               onClick={() => setActiveTab("expansion")}
+              className="flex-1 sm:flex-none text-xs sm:text-sm"
             >
-              <TrendingUp className="w-4 h-4 mr-2" />
-              Grid Expansion
+              <TrendingUp className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline">Grid Expansion</span>
+              <span className="sm:hidden">Expand</span>
             </TabsTrigger>
             <TabsTrigger
               value="electricity"
               isActive={activeTab === "electricity"}
               onClick={() => setActiveTab("electricity")}
+              className="flex-1 sm:flex-none text-xs sm:text-sm"
             >
-              <Zap className="w-4 h-4 mr-2" />
-              Electricity Impact
+              <Zap className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline">Electricity Impact</span>
+              <span className="sm:hidden">Impact</span>
             </TabsTrigger>
           </TabsList>
         </Tabs>

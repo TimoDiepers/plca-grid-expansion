@@ -21,25 +21,23 @@
   --radius: 0.5rem;
 }
 
-/* Dark mode styles */
-.dark {
-  --color-background: #0a0a0a;
-  --color-foreground: #fafafa;
-  --color-card: #171717;
-  --color-card-foreground: #fafafa;
-  --color-primary: #fafafa;
-  --color-primary-foreground: #171717;
-  --color-secondary: #262626;
-  --color-secondary-foreground: #fafafa;
-  --color-muted: #262626;
-  --color-muted-foreground: #a3a3a3;
-  --color-accent: #262626;
-  --color-accent-foreground: #fafafa;
-  --color-destructive: #7f1d1d;
-  --color-destructive-foreground: #fafafa;
-  --color-border: #262626;
-  --color-input: #262626;
-  --color-ring: #d4d4d4;
+/* Base styles */
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #ffffff;
+  color: #0a0a0a;
+}
+
+.dark body {
+  background-color: #0a0a0a;
+  color: #fafafa;
 }
 
 /* Custom chart styles */
