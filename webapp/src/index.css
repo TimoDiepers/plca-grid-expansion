@@ -21,6 +21,27 @@
   --radius: 0.5rem;
 }
 
+/* Dark mode styles */
+.dark {
+  --color-background: #0a0a0a;
+  --color-foreground: #fafafa;
+  --color-card: #171717;
+  --color-card-foreground: #fafafa;
+  --color-primary: #fafafa;
+  --color-primary-foreground: #171717;
+  --color-secondary: #262626;
+  --color-secondary-foreground: #fafafa;
+  --color-muted: #262626;
+  --color-muted-foreground: #a3a3a3;
+  --color-accent: #262626;
+  --color-accent-foreground: #fafafa;
+  --color-destructive: #7f1d1d;
+  --color-destructive-foreground: #fafafa;
+  --color-border: #262626;
+  --color-input: #262626;
+  --color-ring: #d4d4d4;
+}
+
 /* Custom chart styles */
 .recharts-tooltip-wrapper {
   z-index: 50 !important;
@@ -28,4 +49,82 @@
 
 .recharts-legend-wrapper {
   padding-top: 10px;
+}
+
+/* Animation styles for dropdown */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.95);
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-2px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation-duration: 150ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.animate-out {
+  animation-duration: 150ms;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-0 {
+  animation-name: fadeIn;
+}
+
+.fade-out-0 {
+  animation-name: fadeOut;
+}
+
+.zoom-in-95 {
+  animation-name: zoomIn;
+}
+
+.zoom-out-95 {
+  animation-name: zoomOut;
+}
+
+.slide-in-from-top-2 {
+  animation-name: slideInFromTop;
 }
