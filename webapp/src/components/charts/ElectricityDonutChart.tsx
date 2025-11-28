@@ -1,11 +1,12 @@
+import { Pie, PieChart, Cell, Label } from "recharts";
 import {
-  PieChart,
-  Pie,
-  Cell,
-  ResponsiveContainer,
-  Legend,
-  Tooltip,
-} from "recharts";
+  ChartContainer,
+  ChartTooltip,
+  ChartTooltipContent,
+  ChartLegend,
+  ChartLegendContent,
+  type ChartConfig,
+} from "@/components/ui/chart";
 
 interface ElectricityDonutChartProps {
   data: {
@@ -18,12 +19,12 @@ interface ElectricityDonutChartProps {
 }
 
 const COLORS: Record<string, string> = {
-  Coal: "#646567",
+  Coal: "#52525b",
   Gas: "#f97316",
-  Wind: "#60a5fa",
-  Solar: "#facc15",
+  Wind: "#3b82f6",
+  Solar: "#eab308",
   Biomass: "#22c55e",
-  Nuclear: "#eab308",
+  Nuclear: "#fbbf24",
   Hydro: "#06b6d4",
   Hydrogen: "#a855f7",
   Other: "#9ca3af",
@@ -35,6 +36,7 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
     name,
     value: values.impact,
     share: values.share,
+    fill: COLORS[name] || "#9ca3af",
   }));
 
   // Add grid infrastructure
@@ -42,6 +44,7 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
     name: "Grid infrastructure",
     value: data.gridShare,
     share: 0,
+    fill: COLORS["Grid infrastructure"],
   });
 
   // Sort by value descending, but keep Grid infrastructure at the end
@@ -52,51 +55,89 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
     pieData.find((d) => d.name === "Grid infrastructure")!,
   ];
 
+  // Build chart config dynamically
+  const chartConfig = sortedData.reduce((acc, item) => {
+    acc[item.name] = {
+      label: item.name,
+      color: item.fill,
+    };
+    return acc;
+  }, {} as ChartConfig);
+
   return (
     <div className="flex flex-col items-center">
-      <div className="relative" style={{ width: 300, height: 250 }}>
-        <ResponsiveContainer width="100%" height="100%">
-          <PieChart>
-            <Pie
-              data={sortedData}
-              cx="50%"
-              cy="50%"
-              innerRadius={50}
-              outerRadius={80}
-              paddingAngle={2}
-              dataKey="value"
-            >
-              {sortedData.map((entry, index) => (
-                <Cell
-                  key={`cell-${index}`}
-                  fill={COLORS[entry.name] || "#9ca3af"}
-                  stroke="#fff"
-                  strokeWidth={1}
-                />
-              ))}
-            </Pie>
-            <Tooltip
-              formatter={(value: number, name: string) => [
-                `${value.toFixed(1)}%`,
-                name,
-              ]}
+      <ChartContainer config={chartConfig} className="mx-auto aspect-square h-[280px]">
+        <PieChart>
+          <ChartTooltip
+            content={
+              <ChartTooltipContent
+                formatter={(value, name) => (
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="text-gray-500">{name}</span>
+                    <span className="font-mono font-medium">
+                      {typeof value === "number" ? value.toFixed(1) : value}%
+                    </span>
+                  </div>
+                )}
+              />
+            }
+          />
+          <Pie
+            data={sortedData}
+            cx="50%"
+            cy="50%"
+            innerRadius={60}
+            outerRadius={90}
+            paddingAngle={2}
+            dataKey="value"
+            nameKey="name"
+          >
+            {sortedData.map((entry, index) => (
+              <Cell
+                key={`cell-${index}`}
+                fill={entry.fill}
+                stroke="#fff"
+                strokeWidth={2}
+              />
+            ))}
+            <Label
+              content={({ viewBox }) => {
+                if (viewBox && "cx" in viewBox && "cy" in viewBox) {
+                  return (
+                    <text
+                      x={viewBox.cx}
+                      y={viewBox.cy}
+                      textAnchor="middle"
+                      dominantBaseline="middle"
+                    >
+                      <tspan
+                        x={viewBox.cx}
+                        y={viewBox.cy}
+                        className="fill-gray-900 text-2xl font-bold"
+                      >
+                        {data.totalGCO2e} g
+                      </tspan>
+                      <tspan
+                        x={viewBox.cx}
+                        y={(viewBox.cy || 0) + 20}
+                        className="fill-gray-500 text-xs"
+                      >
+                        CO₂-eq/kWh
+                      </tspan>
+                    </text>
+                  );
+                }
+              }}
             />
-            <Legend
-              layout="horizontal"
-              verticalAlign="bottom"
-              align="center"
-              wrapperStyle={{ fontSize: "10px" }}
-            />
-          </PieChart>
-        </ResponsiveContainer>
-        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none" style={{ top: -30 }}>
-          <span className="text-2xl font-bold">{data.totalGCO2e} g</span>
-          <span className="text-xs text-gray-500">CO₂-eq/kWh</span>
-          <span className="text-xs text-gray-400">({data.year})</span>
-        </div>
-      </div>
+          </Pie>
+          <ChartLegend
+            content={<ChartLegendContent nameKey="name" />}
+            className="flex-wrap gap-2 [&>*]:basis-1/4 [&>*]:justify-center text-xs"
+          />
+        </PieChart>
+      </ChartContainer>
       {data.scenario && (
-        <div className="text-sm font-semibold text-center mt-2">
+        <div className="text-sm font-semibold text-center mt-2 text-gray-700">
           {data.scenario}
         </div>
       )}
