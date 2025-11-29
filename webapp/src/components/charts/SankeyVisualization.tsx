@@ -1,141 +1,281 @@
+import { Sankey, Tooltip, Layer, Rectangle } from "recharts";
 import { sankeyData } from "@/data";
 
-// Node colors
+// Node colors - organized by category
 const NODE_COLORS: Record<string, string> = {
-  // Components
-  "cables": "#ff7f0e",
-  "overhead lines": "#1f77b4",
-  "transformers": "#2ca02c",
-  "substations": "#d62728",
-  "switchgears": "#9467bd",
+  // Grid (final target)
   "grid status quo": "#17becf",
+  // Components
+  "cables": "#f97316",
+  "overhead lines": "#2563eb",
+  "transformers": "#22c55e",
+  "substations": "#ef4444",
+  "switchgears": "#a855f7",
   // Materials
-  "aluminum": "#aec7e8",
-  "copper": "#ff9896",
-  "iron & steel": "#98df8a",
-  "plastics": "#c5b0d5",
-  "concrete": "#c7c7c7",
-  "SF6": "#ffbb78",
-  "other materials": "#bcbd22",
+  "aluminum": "#60a5fa",
+  "copper": "#f87171",
+  "iron & steel": "#4ade80",
+  "plastics": "#c084fc",
+  "concrete": "#9ca3af",
+  "SF6": "#fbbf24",
+  "other materials": "#a3e635",
   // Processes
-  "electricity": "#7f7f7f",
-  "heat": "#dbdb8d",
-  "transport": "#9edae5",
-  "coal": "#393b79",
-  "clinker": "#637939",
-  "aluminum (process emissions)": "#8c6d31",
-  "iron & steel (process emissions)": "#843c39",
-  "other processes": "#7b4173",
+  "electricity": "#64748b",
+  "heat": "#fcd34d",
+  "transport": "#22d3ee",
+  "coal": "#1e293b",
+  "clinker": "#65a30d",
+  "aluminum (process emissions)": "#d97706",
+  "iron & steel (process emissions)": "#dc2626",
+  "other processes": "#a855f7",
 };
 
-// Component to Target flows
-const componentFlows = sankeyData.filter((d) => d.target === "grid status quo");
+// Build Sankey data structure
+function buildSankeyData() {
+  // Create unique nodes
+  const nodeSet = new Set<string>();
+  sankeyData.forEach((d) => {
+    nodeSet.add(d.source);
+    nodeSet.add(d.target);
+  });
 
-interface FlowRowProps {
-  flows: typeof sankeyData;
-  title: string;
+  // Convert to array and create index map
+  const nodes = Array.from(nodeSet).map((name) => ({
+    name,
+    fill: NODE_COLORS[name] || "#9ca3af",
+  }));
+
+  const nodeIndexMap = new Map<string, number>();
+  nodes.forEach((node, index) => {
+    nodeIndexMap.set(node.name, index);
+  });
+
+  // Create links
+  const links = sankeyData
+    .filter((d) => d.value > 0.1) // Filter small flows for clarity
+    .map((d) => ({
+      source: nodeIndexMap.get(d.source)!,
+      target: nodeIndexMap.get(d.target)!,
+      value: d.value,
+      sourceName: d.source,
+      targetName: d.target,
+    }));
+
+  return { nodes, links };
 }
 
-function FlowRow({ flows, title }: FlowRowProps) {
-  const total = flows.reduce((acc, f) => acc + f.value, 0);
+const { nodes, links } = buildSankeyData();
+
+// Custom node component for the Sankey diagram
+interface SankeyNodeProps {
+  x?: number;
+  y?: number;
+  width?: number;
+  height?: number;
+  index?: number;
+  payload?: {
+    name: string;
+    fill: string;
+    value?: number;
+  };
+}
+
+function SankeyNode({ x = 0, y = 0, width = 0, height = 0, payload }: SankeyNodeProps) {
+  if (!payload) return null;
+  
+  const isProcessNode = [
+    "electricity", "heat", "transport", "coal", "clinker",
+    "aluminum (process emissions)", "iron & steel (process emissions)", "other processes"
+  ].includes(payload.name);
+  
+  const isGridNode = payload.name === "grid status quo";
 
   return (
-    <div className="mb-4">
-      <h4 className="text-sm font-medium mb-2 text-gray-600">{title}</h4>
-      <div className="flex h-8 rounded overflow-hidden shadow-sm">
-        {flows
-          .sort((a, b) => b.value - a.value)
-          .map((flow, i) => {
-            const width = (flow.value / total) * 100;
-            const color = NODE_COLORS[flow.source] || "#ccc";
-            return (
-              <div
-                key={`${flow.source}-${flow.target}-${i}`}
-                className="relative group"
-                style={{
-                  width: `${width}%`,
-                  backgroundColor: color,
-                  minWidth: width > 1 ? "2px" : "0",
-                }}
-              >
-                <div className="absolute z-10 bottom-full left-1/2 transform -translate-x-1/2 mb-1 px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 whitespace-nowrap pointer-events-none transition-opacity">
-                  {flow.source}: {flow.value.toFixed(2)} Mt CO₂-eq
-                </div>
-              </div>
-            );
-          })}
+    <Layer>
+      <Rectangle
+        x={x}
+        y={y}
+        width={width}
+        height={height}
+        fill={payload.fill}
+        fillOpacity={0.9}
+        rx={2}
+        ry={2}
+      />
+      {height > 15 && (
+        <text
+          x={isProcessNode ? x + width + 6 : (isGridNode ? x - 6 : x + width / 2)}
+          y={y + height / 2}
+          textAnchor={isProcessNode ? "start" : (isGridNode ? "end" : "middle")}
+          dominantBaseline="middle"
+          className="fill-gray-700 dark:fill-gray-300 text-[10px] font-medium"
+          style={{ fontSize: "10px" }}
+        >
+          {payload.name.length > 12 
+            ? payload.name.substring(0, 12) + "..." 
+            : payload.name}
+        </text>
+      )}
+    </Layer>
+  );
+}
+
+// Custom link component
+interface SankeyLinkProps {
+  sourceX?: number;
+  targetX?: number;
+  sourceY?: number;
+  targetY?: number;
+  sourceControlX?: number;
+  targetControlX?: number;
+  linkWidth?: number;
+  payload?: {
+    source: number;
+    target: number;
+    value: number;
+    sourceName: string;
+    targetName: string;
+  };
+}
+
+function SankeyLink({
+  sourceX = 0,
+  targetX = 0,
+  sourceY = 0,
+  targetY = 0,
+  sourceControlX = 0,
+  targetControlX = 0,
+  linkWidth = 0,
+  payload,
+}: SankeyLinkProps) {
+  if (!payload) return null;
+  
+  const sourceNode = nodes[payload.source];
+  const gradientId = `gradient-${payload.source}-${payload.target}`;
+
+  return (
+    <Layer>
+      <defs>
+        <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor={sourceNode?.fill || "#9ca3af"} stopOpacity={0.5} />
+          <stop offset="100%" stopColor={sourceNode?.fill || "#9ca3af"} stopOpacity={0.2} />
+        </linearGradient>
+      </defs>
+      <path
+        d={`
+          M${sourceX},${sourceY}
+          C${sourceControlX},${sourceY} ${targetControlX},${targetY} ${targetX},${targetY}
+          L${targetX},${targetY + linkWidth}
+          C${targetControlX},${targetY + linkWidth} ${sourceControlX},${sourceY + linkWidth} ${sourceX},${sourceY + linkWidth}
+          Z
+        `}
+        fill={`url(#${gradientId})`}
+        strokeWidth={0}
+        className="hover:opacity-80 transition-opacity cursor-pointer"
+      />
+    </Layer>
+  );
+}
+
+// Custom tooltip content
+interface TooltipPayloadItem {
+  payload?: {
+    sourceName?: string;
+    targetName?: string;
+    value?: number;
+    name?: string;
+  };
+}
+
+function CustomTooltip({ active, payload }: { active?: boolean; payload?: TooltipPayloadItem[] }) {
+  if (!active || !payload || payload.length === 0) return null;
+  
+  const data = payload[0]?.payload;
+  if (!data) return null;
+
+  if (data.sourceName && data.targetName) {
+    return (
+      <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
+        <p className="font-medium text-gray-900 dark:text-gray-100">
+          {data.sourceName} → {data.targetName}
+        </p>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+          {data.value?.toFixed(2)} Mt CO₂-eq
+        </p>
       </div>
-      <div className="flex flex-wrap gap-2 mt-2">
-        {flows
-          .sort((a, b) => b.value - a.value)
-          .slice(0, 6)
-          .map((flow, i) => (
-            <div key={i} className="flex items-center gap-1 text-xs">
-              <div
-                className="w-3 h-3 rounded"
-                style={{ backgroundColor: NODE_COLORS[flow.source] || "#ccc" }}
-              />
-              <span>{flow.source}</span>
-            </div>
-          ))}
-      </div>
+    );
+  }
+
+  return (
+    <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
+      <p className="font-medium text-gray-900 dark:text-gray-100">{data.name}</p>
     </div>
   );
 }
 
 export function SankeyVisualization() {
   return (
-    <div className="p-4">
-      <div className="space-y-6">
-        <div>
-          <h3 className="text-lg font-semibold mb-4">Grid Status Quo - Flow Breakdown</h3>
-          <p className="text-sm text-gray-600 mb-4">
-            Total climate impact: <strong>64.76 Mt CO₂-eq</strong>
-          </p>
+    <div className="w-full">
+      <div className="mb-4">
+        <p className="text-sm text-gray-600 dark:text-gray-400">
+          Total climate impact: <strong className="text-gray-900 dark:text-gray-100">64.76 Mt CO₂-eq</strong>
+        </p>
+        <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+          Flow from processes → materials → components → grid
+        </p>
+      </div>
+      
+      {/* Responsive Sankey container */}
+      <div className="w-full overflow-x-auto">
+        <div className="min-w-[600px]">
+          <Sankey
+            width={800}
+            height={500}
+            data={{ nodes, links }}
+            node={<SankeyNode />}
+            link={<SankeyLink />}
+            nodePadding={24}
+            nodeWidth={12}
+            margin={{ top: 20, right: 150, bottom: 20, left: 150 }}
+          >
+            <Tooltip content={<CustomTooltip />} />
+          </Sankey>
         </div>
-        
-        <FlowRow
-          flows={componentFlows}
-          title="Components → Grid Status Quo"
-        />
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <h4 className="font-medium mb-3">Material Contributions per Component</h4>
-            {["overhead lines", "cables", "transformers", "substations", "switchgears"].map(
-              (component) => {
-                const flows = sankeyData.filter(
-                  (d) => d.target === component && d.value > 0.01
-                );
-                if (flows.length === 0) return null;
-                return (
-                  <FlowRow
-                    key={component}
-                    flows={flows}
-                    title={component.charAt(0).toUpperCase() + component.slice(1)}
-                  />
-                );
-              }
-            )}
+      </div>
+
+      {/* Legend */}
+      <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 text-xs">
+        <div>
+          <p className="font-medium text-gray-700 dark:text-gray-300 mb-2">Components</p>
+          <div className="space-y-1">
+            {["overhead lines", "cables", "transformers", "substations", "switchgears"].map((name) => (
+              <div key={name} className="flex items-center gap-2">
+                <div className="w-3 h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
+                <span className="text-gray-600 dark:text-gray-400 capitalize">{name}</span>
+              </div>
+            ))}
           </div>
-          
-          <div>
-            <h4 className="font-medium mb-3">Process Contributions per Material</h4>
-            {["aluminum", "iron & steel", "copper", "plastics", "concrete", "other materials"].map(
-              (material) => {
-                const flows = sankeyData.filter(
-                  (d) => d.target === material && d.value > 0.01
-                );
-                if (flows.length === 0) return null;
-                return (
-                  <FlowRow
-                    key={material}
-                    flows={flows}
-                    title={material.charAt(0).toUpperCase() + material.slice(1)}
-                  />
-                );
-              }
-            )}
+        </div>
+        <div>
+          <p className="font-medium text-gray-700 dark:text-gray-300 mb-2">Materials</p>
+          <div className="space-y-1">
+            {["aluminum", "iron & steel", "copper", "plastics", "concrete", "SF6"].map((name) => (
+              <div key={name} className="flex items-center gap-2">
+                <div className="w-3 h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
+                <span className="text-gray-600 dark:text-gray-400 capitalize">{name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="col-span-2 sm:col-span-1 md:col-span-2">
+          <p className="font-medium text-gray-700 dark:text-gray-300 mb-2">Key Processes</p>
+          <div className="grid grid-cols-2 gap-1">
+            {["electricity", "heat", "coal", "transport"].map((name) => (
+              <div key={name} className="flex items-center gap-2">
+                <div className="w-3 h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
+                <span className="text-gray-600 dark:text-gray-400 capitalize">{name}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Pie, PieChart, Cell, Label } from "recharts";
+import { Pie, PieChart, Cell, Label, ResponsiveContainer } from "recharts";
 import {
   ChartContainer,
   ChartTooltip,
@@ -66,78 +66,87 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
 
   return (
     <div className="flex flex-col items-center">
-      <ChartContainer config={chartConfig} className="mx-auto aspect-square h-[280px]">
-        <PieChart>
-          <ChartTooltip
-            content={
-              <ChartTooltipContent
-                formatter={(value, name) => (
-                  <div className="flex items-center justify-between gap-4">
-                    <span className="text-gray-500">{name}</span>
-                    <span className="font-mono font-medium">
-                      {typeof value === "number" ? value.toFixed(1) : value}%
-                    </span>
-                  </div>
-                )}
-              />
-            }
-          />
-          <Pie
-            data={sortedData}
-            cx="50%"
-            cy="50%"
-            innerRadius={60}
-            outerRadius={90}
-            paddingAngle={2}
-            dataKey="value"
-            nameKey="name"
-          >
-            {sortedData.map((entry, index) => (
-              <Cell
-                key={`cell-${index}`}
-                fill={entry.fill}
-                stroke="#fff"
-                strokeWidth={2}
-              />
-            ))}
-            <Label
-              content={({ viewBox }) => {
-                if (viewBox && "cx" in viewBox && "cy" in viewBox) {
-                  return (
-                    <text
-                      x={viewBox.cx}
-                      y={viewBox.cy}
-                      textAnchor="middle"
-                      dominantBaseline="middle"
-                    >
-                      <tspan
+      <ChartContainer config={chartConfig} className="mx-auto aspect-square w-full max-w-[280px] h-auto min-h-[200px]">
+        <ResponsiveContainer width="100%" height="100%">
+          <PieChart>
+            <ChartTooltip
+              content={
+                <ChartTooltipContent
+                  formatter={(value, name) => (
+                    <div className="flex items-center justify-between gap-4">
+                      <span className="text-gray-500 dark:text-gray-400">{name}</span>
+                      <span className="font-mono font-medium text-gray-900 dark:text-gray-100">
+                        {typeof value === "number" ? value.toFixed(1) : value}%
+                      </span>
+                    </div>
+                  )}
+                />
+              }
+            />
+            <Pie
+              data={sortedData}
+              cx="50%"
+              cy="50%"
+              innerRadius="45%"
+              outerRadius="70%"
+              paddingAngle={2}
+              dataKey="value"
+              nameKey="name"
+            >
+              {sortedData.map((entry, index) => (
+                <Cell
+                  key={`cell-${index}`}
+                  fill={entry.fill}
+                  stroke="transparent"
+                  strokeWidth={1}
+                />
+              ))}
+              <Label
+                content={({ viewBox }) => {
+                  if (viewBox && "cx" in viewBox && "cy" in viewBox) {
+                    return (
+                      <text
                         x={viewBox.cx}
                         y={viewBox.cy}
-                        className="fill-gray-900 text-2xl font-bold"
+                        textAnchor="middle"
+                        dominantBaseline="middle"
                       >
-                        {data.totalGCO2e} g
-                      </tspan>
-                      <tspan
-                        x={viewBox.cx}
-                        y={(viewBox.cy || 0) + 20}
-                        className="fill-gray-500 text-xs"
-                      >
-                        CO₂-eq/kWh
-                      </tspan>
-                    </text>
-                  );
-                }
-              }}
+                        <tspan
+                          x={viewBox.cx}
+                          y={viewBox.cy}
+                          className="fill-gray-900 dark:fill-gray-100 text-xl sm:text-2xl font-bold"
+                        >
+                          {data.totalGCO2e} g
+                        </tspan>
+                        <tspan
+                          x={viewBox.cx}
+                          y={(viewBox.cy || 0) + 18}
+                          className="fill-gray-500 dark:fill-gray-400 text-[10px] sm:text-xs"
+                        >
+                          CO₂-eq/kWh
+                        </tspan>
+                        <tspan
+                          x={viewBox.cx}
+                          y={(viewBox.cy || 0) + 32}
+                          className="fill-gray-400 dark:fill-gray-500 text-[9px]"
+                        >
+                          ({data.year})
+                        </tspan>
+                      </text>
+                    );
+                  }
+                }}
+              />
+            </Pie>
+            <ChartLegend
+              content={<ChartLegendContent nameKey="name" />}
+              className="flex-wrap gap-1 [&>*]:basis-1/3 [&>*]:justify-center text-[10px]"
             />
-          </Pie>
-          <ChartLegend
-            content={<ChartLegendContent nameKey="name" />}
-            className="flex-wrap gap-2 [&>*]:basis-1/4 [&>*]:justify-center text-xs"
-          />
-        </PieChart>
+          </PieChart>
+        </ResponsiveContainer>
       </ChartContainer>
       {data.scenario && (
-        <div className="text-sm font-semibold text-center mt-2 text-gray-700">
+        <div className="text-sm font-semibold text-center mt-2 text-gray-700 dark:text-gray-300">
           {data.scenario}
         </div>
       )}
