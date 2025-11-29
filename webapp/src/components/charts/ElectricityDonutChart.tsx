@@ -3,8 +3,6 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-  ChartLegend,
-  ChartLegendContent,
   type ChartConfig,
 } from "@/components/ui/chart";
 
@@ -66,7 +64,7 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
 
   return (
     <div className="flex flex-col items-center">
-      <ChartContainer config={chartConfig} className="mx-auto aspect-square w-full max-w-[280px] h-auto min-h-[200px]">
+      <ChartContainer config={chartConfig} className="mx-auto w-full max-w-[320px] h-[180px] sm:h-[200px]">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart>
             <ChartTooltip
@@ -86,9 +84,11 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
             <Pie
               data={sortedData}
               cx="50%"
-              cy="50%"
-              innerRadius="45%"
-              outerRadius="70%"
+              cy="85%"
+              startAngle={180}
+              endAngle={0}
+              innerRadius="55%"
+              outerRadius="95%"
               paddingAngle={2}
               dataKey="value"
               nameKey="name"
@@ -107,30 +107,23 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
                     return (
                       <text
                         x={viewBox.cx}
-                        y={viewBox.cy}
+                        y={(viewBox.cy || 0) - 20}
                         textAnchor="middle"
                         dominantBaseline="middle"
                       >
                         <tspan
                           x={viewBox.cx}
-                          y={viewBox.cy}
+                          y={(viewBox.cy || 0) - 30}
                           className="fill-gray-900 dark:fill-gray-100 text-xl sm:text-2xl font-bold"
                         >
                           {data.totalGCO2e} g
                         </tspan>
                         <tspan
                           x={viewBox.cx}
-                          y={(viewBox.cy || 0) + 18}
+                          y={(viewBox.cy || 0) - 12}
                           className="fill-gray-500 dark:fill-gray-400 text-[10px] sm:text-xs"
                         >
                           CO₂-eq/kWh
-                        </tspan>
-                        <tspan
-                          x={viewBox.cx}
-                          y={(viewBox.cy || 0) + 32}
-                          className="fill-gray-400 dark:fill-gray-500 text-[9px]"
-                        >
-                          ({data.year})
                         </tspan>
                       </text>
                     );
@@ -138,15 +131,24 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
                 }}
               />
             </Pie>
-            <ChartLegend
-              content={<ChartLegendContent nameKey="name" />}
-              className="flex-wrap gap-1 [&>*]:basis-1/3 [&>*]:justify-center text-[10px]"
-            />
           </PieChart>
         </ResponsiveContainer>
       </ChartContainer>
+      <ChartContainer config={chartConfig} className="mx-auto w-full max-w-[320px] h-auto -mt-2">
+        <div className="flex flex-wrap justify-center gap-x-3 gap-y-1 text-[10px] sm:text-xs px-2">
+          {sortedData.map((entry) => (
+            <div key={entry.name} className="flex items-center gap-1">
+              <div
+                className="w-2 h-2 rounded-sm"
+                style={{ backgroundColor: entry.fill }}
+              />
+              <span className="text-gray-600 dark:text-gray-400">{entry.name}</span>
+            </div>
+          ))}
+        </div>
+      </ChartContainer>
       {data.scenario && (
-        <div className="text-sm font-semibold text-center mt-2 text-gray-700 dark:text-gray-300">
+        <div className="text-sm font-semibold text-center mt-1 text-gray-700 dark:text-gray-300">
           {data.scenario}
         </div>
       )}
