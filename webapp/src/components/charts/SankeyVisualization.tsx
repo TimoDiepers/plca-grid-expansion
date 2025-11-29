@@ -102,17 +102,17 @@ function SankeyNode({ x = 0, y = 0, width = 0, height = 0, payload }: SankeyNode
         rx={2}
         ry={2}
       />
-      {height > 15 && (
+      {height > 12 && (
         <text
-          x={isProcessNode ? x + width + 6 : (isGridNode ? x - 6 : x + width / 2)}
+          x={isProcessNode ? x + width + 4 : (isGridNode ? x - 4 : x + width / 2)}
           y={y + height / 2}
           textAnchor={isProcessNode ? "start" : (isGridNode ? "end" : "middle")}
           dominantBaseline="middle"
-          className="fill-gray-700 dark:fill-gray-300 text-[10px] font-medium"
-          style={{ fontSize: "10px" }}
+          className="fill-gray-300 text-[8px] sm:text-[9px] font-medium"
+          style={{ fontSize: "8px" }}
         >
-          {payload.name.length > 12 
-            ? payload.name.substring(0, 12) + "..." 
+          {payload.name.length > 10 
+            ? payload.name.substring(0, 10) + "..." 
             : payload.name}
         </text>
       )}
@@ -195,11 +195,11 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: Toolti
 
   if (data.sourceName && data.targetName) {
     return (
-      <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
-        <p className="font-medium text-gray-900 dark:text-gray-100">
+      <div className="bg-gray-800 p-2 sm:p-3 rounded-lg shadow-lg border border-gray-700">
+        <p className="font-medium text-gray-100 text-xs sm:text-sm">
           {data.sourceName} → {data.targetName}
         </p>
-        <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+        <p className="text-xs text-gray-400 mt-1">
           {data.value?.toFixed(2)} Mt CO₂-eq
         </p>
       </div>
@@ -207,8 +207,8 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: Toolti
   }
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
-      <p className="font-medium text-gray-900 dark:text-gray-100">{data.name}</p>
+    <div className="bg-gray-800 p-2 sm:p-3 rounded-lg shadow-lg border border-gray-700">
+      <p className="font-medium text-gray-100 text-xs sm:text-sm">{data.name}</p>
     </div>
   );
 }
@@ -216,27 +216,27 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: Toolti
 export function SankeyVisualization() {
   return (
     <div className="w-full">
-      <div className="mb-4">
-        <p className="text-sm text-gray-600 dark:text-gray-400">
-          Total climate impact: <strong className="text-gray-900 dark:text-gray-100">64.76 Mt CO₂-eq</strong>
+      <div className="mb-3 sm:mb-4">
+        <p className="text-xs sm:text-sm text-gray-400">
+          Total climate impact: <strong className="text-gray-100">64.76 Mt CO₂-eq</strong>
         </p>
-        <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+        <p className="text-[10px] sm:text-xs text-gray-500 mt-1">
           Flow from processes → materials → components → grid
         </p>
       </div>
       
       {/* Responsive Sankey container */}
-      <div className="w-full overflow-x-auto">
-        <div className="min-w-[600px]">
+      <div className="w-full overflow-x-auto -mx-2 px-2">
+        <div className="min-w-[500px] sm:min-w-[600px]">
           <Sankey
-            width={800}
-            height={500}
+            width={700}
+            height={400}
             data={{ nodes, links }}
             node={<SankeyNode />}
             link={<SankeyLink />}
-            nodePadding={24}
-            nodeWidth={12}
-            margin={{ top: 20, right: 150, bottom: 20, left: 150 }}
+            nodePadding={20}
+            nodeWidth={10}
+            margin={{ top: 15, right: 120, bottom: 15, left: 120 }}
           >
             <Tooltip content={<CustomTooltip />} />
           </Sankey>
@@ -244,36 +244,36 @@ export function SankeyVisualization() {
       </div>
 
       {/* Legend */}
-      <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 text-xs">
+      <div className="mt-4 sm:mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3 text-[10px] sm:text-xs">
         <div>
-          <p className="font-medium text-gray-700 dark:text-gray-300 mb-2">Components</p>
-          <div className="space-y-1">
+          <p className="font-medium text-gray-300 mb-1 sm:mb-2">Components</p>
+          <div className="space-y-0.5 sm:space-y-1">
             {["overhead lines", "cables", "transformers", "substations", "switchgears"].map((name) => (
-              <div key={name} className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
-                <span className="text-gray-600 dark:text-gray-400 capitalize">{name}</span>
+              <div key={name} className="flex items-center gap-1 sm:gap-2">
+                <div className="w-2 h-2 sm:w-3 sm:h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
+                <span className="text-gray-400 capitalize truncate">{name}</span>
               </div>
             ))}
           </div>
         </div>
         <div>
-          <p className="font-medium text-gray-700 dark:text-gray-300 mb-2">Materials</p>
-          <div className="space-y-1">
+          <p className="font-medium text-gray-300 mb-1 sm:mb-2">Materials</p>
+          <div className="space-y-0.5 sm:space-y-1">
             {["aluminum", "iron & steel", "copper", "plastics", "concrete", "SF6"].map((name) => (
-              <div key={name} className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
-                <span className="text-gray-600 dark:text-gray-400 capitalize">{name}</span>
+              <div key={name} className="flex items-center gap-1 sm:gap-2">
+                <div className="w-2 h-2 sm:w-3 sm:h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
+                <span className="text-gray-400 capitalize truncate">{name}</span>
               </div>
             ))}
           </div>
         </div>
         <div className="col-span-2 sm:col-span-1 md:col-span-2">
-          <p className="font-medium text-gray-700 dark:text-gray-300 mb-2">Key Processes</p>
-          <div className="grid grid-cols-2 gap-1">
+          <p className="font-medium text-gray-300 mb-1 sm:mb-2">Key Processes</p>
+          <div className="grid grid-cols-2 gap-0.5 sm:gap-1">
             {["electricity", "heat", "coal", "transport"].map((name) => (
-              <div key={name} className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
-                <span className="text-gray-600 dark:text-gray-400 capitalize">{name}</span>
+              <div key={name} className="flex items-center gap-1 sm:gap-2">
+                <div className="w-2 h-2 sm:w-3 sm:h-3 rounded" style={{ backgroundColor: NODE_COLORS[name] }} />
+                <span className="text-gray-400 capitalize truncate">{name}</span>
               </div>
             ))}
           </div>

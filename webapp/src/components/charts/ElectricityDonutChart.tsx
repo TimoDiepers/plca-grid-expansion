@@ -65,15 +65,15 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
   return (
     <div className="flex flex-col items-center w-full">
       {/* Half-circle chart with proper aspect ratio to remove wasted space */}
-      <ChartContainer config={chartConfig} className="mx-auto w-full max-w-[280px] sm:max-w-[320px] aspect-[2/1]">
+      <ChartContainer config={chartConfig} className="mx-auto w-full max-w-[200px] sm:max-w-[280px] aspect-[2/1]">
         <PieChart margin={{ top: 0, right: 0, bottom: 0, left: 0 }}>
           <ChartTooltip
             content={
               <ChartTooltipContent
                 formatter={(value, name) => (
-                  <div className="flex items-center justify-between gap-4">
-                    <span className="text-gray-500 dark:text-gray-400">{name}</span>
-                    <span className="font-mono font-medium text-gray-900 dark:text-gray-100">
+                  <div className="flex items-center justify-between gap-2 sm:gap-4">
+                    <span className="text-gray-400 text-xs">{name}</span>
+                    <span className="font-mono font-medium text-gray-100 text-xs">
                       {typeof value === "number" ? value.toFixed(1) : value}%
                     </span>
                   </div>
@@ -87,7 +87,7 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
             cy="100%"
             startAngle={180}
             endAngle={0}
-            innerRadius="60%"
+            innerRadius="55%"
             outerRadius="100%"
             paddingAngle={2}
             dataKey="value"
@@ -107,21 +107,21 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
                   return (
                     <text
                       x={viewBox.cx}
-                      y={(viewBox.cy || 0) - 25}
+                      y={(viewBox.cy || 0) - 20}
                       textAnchor="middle"
                       dominantBaseline="middle"
                     >
                       <tspan
                         x={viewBox.cx}
-                        y={(viewBox.cy || 0) - 35}
-                        className="fill-gray-900 dark:fill-gray-100 text-lg sm:text-xl font-bold"
+                        y={(viewBox.cy || 0) - 28}
+                        className="fill-gray-100 text-sm sm:text-lg font-bold"
                       >
                         {data.totalGCO2e} g
                       </tspan>
                       <tspan
                         x={viewBox.cx}
-                        y={(viewBox.cy || 0) - 18}
-                        className="fill-gray-500 dark:fill-gray-400 text-[9px] sm:text-[10px]"
+                        y={(viewBox.cy || 0) - 14}
+                        className="fill-gray-400 text-[7px] sm:text-[9px]"
                       >
                         CO₂-eq/kWh
                       </tspan>
@@ -134,19 +134,19 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
         </PieChart>
       </ChartContainer>
       {/* Legend - compact and wrapping */}
-      <div className="flex flex-wrap justify-center gap-x-2 gap-y-1 text-[9px] sm:text-[10px] px-1 mt-2 max-w-[280px] sm:max-w-[320px]">
-        {sortedData.map((entry) => (
-          <div key={entry.name} className="flex items-center gap-1 whitespace-nowrap">
+      <div className="flex flex-wrap justify-center gap-x-1.5 sm:gap-x-2 gap-y-0.5 text-[7px] sm:text-[9px] px-1 mt-1.5 sm:mt-2 max-w-[200px] sm:max-w-[280px]">
+        {sortedData.slice(0, 6).map((entry) => (
+          <div key={entry.name} className="flex items-center gap-0.5 sm:gap-1 whitespace-nowrap">
             <div
-              className="w-2 h-2 rounded-sm flex-shrink-0"
+              className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-sm flex-shrink-0"
               style={{ backgroundColor: entry.fill }}
             />
-            <span className="text-gray-600 dark:text-gray-400 truncate max-w-[60px] sm:max-w-[80px]">{entry.name}</span>
+            <span className="text-gray-400 truncate max-w-[40px] sm:max-w-[60px]">{entry.name}</span>
           </div>
         ))}
       </div>
       {data.scenario && (
-        <div className="text-xs sm:text-sm font-semibold text-center mt-1 text-gray-700 dark:text-gray-300">
+        <div className="text-[10px] sm:text-xs font-semibold text-center mt-1 text-gray-300">
           {data.scenario}
         </div>
       )}

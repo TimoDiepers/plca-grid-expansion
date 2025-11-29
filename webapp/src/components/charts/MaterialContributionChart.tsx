@@ -34,50 +34,50 @@ export function MaterialContributionChart() {
   return (
     <div className="w-full">
       {/* Custom legend at top */}
-      <div className="flex flex-wrap justify-center gap-x-3 gap-y-1 text-[10px] sm:text-xs mb-3 px-2">
+      <div className="flex flex-wrap justify-center gap-x-2 sm:gap-x-3 gap-y-1 text-[9px] sm:text-xs mb-2 sm:mb-3 px-2">
         {Object.entries(chartConfig).map(([key, config]) => (
-          <div key={key} className="flex items-center gap-1.5">
+          <div key={key} className="flex items-center gap-1 sm:gap-1.5">
             <div
-              className="w-2.5 h-2.5 rounded-sm flex-shrink-0"
+              className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-sm flex-shrink-0"
               style={{ backgroundColor: config.color }}
             />
-            <span className="text-gray-600 dark:text-gray-400">{config.label}</span>
+            <span className="text-gray-400">{config.label}</span>
           </div>
         ))}
       </div>
-      <ChartContainer config={chartConfig} className="h-64 sm:h-80 w-full">
+      <ChartContainer config={chartConfig} className="h-48 sm:h-64 md:h-80 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={materialContributions}
-            margin={{ top: 10, right: 10, left: 5, bottom: 40 }}
+            margin={{ top: 5, right: 5, left: 0, bottom: 35 }}
           >
-            <CartesianGrid strokeDasharray="3 3" vertical={false} />
+            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#374151" />
             <XAxis
               dataKey="name"
               tickLine={false}
               axisLine={false}
               angle={-45}
               textAnchor="end"
-              height={40}
-              tickMargin={8}
-              tick={{ fontSize: 9 }}
+              height={35}
+              tickMargin={5}
+              tick={{ fontSize: 8, fill: "#9ca3af" }}
             />
             <YAxis 
               tickLine={false} 
               axisLine={false} 
-              tickMargin={4}
-              tick={{ fontSize: 10 }}
-              width={30}
+              tickMargin={2}
+              tick={{ fontSize: 9, fill: "#9ca3af" }}
+              width={25}
             />
             <ChartTooltip
               content={
                 <ChartTooltipContent
                   formatter={(value, name) => (
-                    <div className="flex items-center justify-between gap-4">
-                      <span className="text-gray-500 dark:text-gray-400">
+                    <div className="flex items-center justify-between gap-2 sm:gap-4">
+                      <span className="text-gray-400 text-xs">
                         {chartConfig[name as keyof typeof chartConfig]?.label || name}
                       </span>
-                      <span className="font-mono font-medium text-gray-900 dark:text-gray-100">
+                      <span className="font-mono font-medium text-gray-100 text-xs">
                         {typeof value === "number" ? value.toFixed(2) : value} Mt CO₂-eq
                       </span>
                     </div>
