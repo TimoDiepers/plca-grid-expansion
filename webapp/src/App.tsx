@@ -114,7 +114,7 @@ function MetricCard({
   };
 
   return (
-    <div className={`rounded-xl border p-4 sm:p-5 ${colorClasses[color]} backdrop-blur-sm`}>
+    <div className={`rounded-xl border p-4 sm:p-5 ${colorClasses[color]} bg-zinc-900/95`}>
       <div className="flex items-center justify-between mb-3">
         <Icon className="h-5 w-5 opacity-70" />
         {trend && (
@@ -175,7 +175,7 @@ function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0, ease: [0.25, 0.1, 0.25, 1] }}
-            className="inline-flex items-center gap-2 bg-zinc-800/50 border border-zinc-700/50 text-zinc-300 px-4 py-2 rounded-full mb-6 backdrop-blur-sm"
+            className="inline-flex items-center gap-2 bg-zinc-800/95 border border-zinc-700/50 text-zinc-300 px-4 py-2 rounded-full mb-6"
           >
             <Activity className="h-4 w-4 text-emerald-400" />
             <span className="text-xs sm:text-sm font-medium">Prospective Life Cycle Assessment</span>
