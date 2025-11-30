@@ -156,7 +156,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-950 bg-grid-pattern text-zinc-100 overflow-x-hidden relative">
+    <div className="min-h-screen bg-zinc-950 text-zinc-100 overflow-x-hidden relative">
+      {/* Fixed grid background */}
+      <div className="fixed inset-0 bg-grid-pattern pointer-events-none z-0" />
       {/* Hero Section */}
       <section
         ref={heroRef}
