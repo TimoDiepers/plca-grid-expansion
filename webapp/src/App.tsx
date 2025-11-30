@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -150,13 +150,22 @@ function App() {
   // Calculate key metrics
   const totalGridImpact = gridStatusQuoComponents.reduce((sum, c) => sum + c.value, 0);
   const heroRef = useRef(null);
+  
+  // Parallax scroll effect for grid background
+  const { scrollY } = useScroll();
+  const gridY = useTransform(scrollY, [0, 3000], [0, -500]);
 
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100 overflow-x-hidden bg-grid-pattern">
+    <div className="min-h-screen bg-zinc-950 text-zinc-100 overflow-x-hidden relative">
+      {/* Parallax Grid Background */}
+      <motion.div 
+        className="fixed inset-0 bg-grid-pattern pointer-events-none z-0"
+        style={{ y: gridY }}
+      />
       {/* Hero Section */}
       <section
         ref={heroRef}
