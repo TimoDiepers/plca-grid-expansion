@@ -100,7 +100,7 @@ export function GridStatusQuoChart() {
             />
             <Bar 
               dataKey="value" 
-              radius={[0, 4, 4, 0]}
+              radius={[0, 8, 8, 0]}
               isAnimationActive={true}
               animationDuration={1200}
               animationBegin={0}

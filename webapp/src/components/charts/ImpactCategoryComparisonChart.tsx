@@ -108,7 +108,7 @@ export function ImpactCategoryComparisonChart() {
               <Bar
                 dataKey="base"
                 fill="var(--color-base)"
-                radius={[0, 4, 4, 0]}
+                radius={8}
                 isAnimationActive={true}
                 animationDuration={1200}
                 animationBegin={0}
@@ -116,7 +116,7 @@ export function ImpactCategoryComparisonChart() {
               <Bar
                 dataKey="pkBudg1000"
                 fill="var(--color-pkBudg1000)"
-                radius={[0, 4, 4, 0]}
+                radius={8}
                 isAnimationActive={true}
                 animationDuration={1200}
                 animationBegin={200}
@@ -124,7 +124,7 @@ export function ImpactCategoryComparisonChart() {
               <Bar
                 dataKey="pkBudg650"
                 fill="var(--color-pkBudg650)"
-                radius={[0, 4, 4, 0]}
+                radius={8}
                 isAnimationActive={true}
                 animationDuration={1200}
                 animationBegin={400}

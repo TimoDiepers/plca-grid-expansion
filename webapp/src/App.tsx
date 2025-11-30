@@ -574,7 +574,7 @@ function App() {
             accent="blue"
           />
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6">
             {[
               { data: electricityImpactData.statusQuo, label: "Status Quo", year: "2023", impact: "373 g" },
               { data: electricityImpactData.npi2045, label: "3°C Scenario", year: "2045", impact: "71 g" },
