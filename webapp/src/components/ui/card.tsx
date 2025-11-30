@@ -3,16 +3,16 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const cardVariants = cva(
-  "rounded-xl border text-zinc-50 backdrop-blur-xl transition-all duration-200",
+  "rounded-xl border text-zinc-50 backdrop-blur-lg transition-all duration-200",
   {
     variants: {
       variant: {
-        default: "border-zinc-700/40 bg-zinc-900/40 hover:border-zinc-600/50",
-        glass: "border-white/10 bg-white/5 backdrop-blur-xl",
-        gradient: "border-0 bg-gradient-to-br from-zinc-900/50 to-zinc-950/50 backdrop-blur-xl",
-        accent: "border-blue-500/20 bg-blue-950/20 backdrop-blur-xl",
-        success: "border-emerald-500/20 bg-emerald-950/20 backdrop-blur-xl",
-        warning: "border-amber-500/20 bg-amber-950/20 backdrop-blur-xl",
+        default: "border-zinc-700/30 bg-zinc-900/60 hover:border-zinc-600/40",
+        glass: "border-white/10 bg-zinc-900/40 backdrop-blur-xl",
+        gradient: "border-0 bg-gradient-to-br from-zinc-900/60 to-zinc-950/60 backdrop-blur-xl",
+        accent: "border-blue-500/20 bg-blue-950/40 backdrop-blur-xl",
+        success: "border-emerald-500/20 bg-emerald-950/40 backdrop-blur-xl",
+        warning: "border-amber-500/20 bg-amber-950/40 backdrop-blur-xl",
       },
     },
     defaultVariants: {
