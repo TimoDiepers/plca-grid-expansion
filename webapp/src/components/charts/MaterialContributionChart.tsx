@@ -7,7 +7,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const chartConfig = {
   overheadLines: {
@@ -35,6 +35,25 @@ const chartConfig = {
 export function MaterialContributionChart() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    if (isInView && !hasAnimated) {
+      setHasAnimated(true);
+    }
+  }, [isInView, hasAnimated]);
+
+  // Use zeroed data until in view
+  const chartData = hasAnimated 
+    ? materialContributions 
+    : materialContributions.map(d => ({ 
+        ...d, 
+        overheadLines: 0, 
+        cables: 0, 
+        transformers: 0, 
+        substations: 0, 
+        switchgears: 0 
+      }));
 
   return (
     <div ref={ref} className="w-full">
@@ -53,7 +72,7 @@ export function MaterialContributionChart() {
       <ChartContainer config={chartConfig} className="h-48 sm:h-64 md:h-80 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
-            data={materialContributions}
+            data={chartData}
             margin={{ top: 5, right: 5, left: 0, bottom: 35 }}
           >
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#374151" />
@@ -73,6 +92,7 @@ export function MaterialContributionChart() {
               tickMargin={2}
               tick={{ fontSize: 9, fill: "#9ca3af" }}
               width={25}
+              domain={[0, 'auto']}
             />
             <ChartTooltip
               content={
@@ -95,7 +115,7 @@ export function MaterialContributionChart() {
               stackId="a"
               fill="var(--color-overheadLines)"
               radius={[0, 0, 0, 0]}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1200}
               animationBegin={0}
             />
@@ -104,7 +124,7 @@ export function MaterialContributionChart() {
               stackId="a"
               fill="var(--color-cables)"
               radius={[0, 0, 0, 0]}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1200}
               animationBegin={100}
             />
@@ -113,7 +133,7 @@ export function MaterialContributionChart() {
               stackId="a"
               fill="var(--color-transformers)"
               radius={[0, 0, 0, 0]}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1200}
               animationBegin={200}
             />
@@ -122,7 +142,7 @@ export function MaterialContributionChart() {
               stackId="a"
               fill="var(--color-substations)"
               radius={[0, 0, 0, 0]}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1200}
               animationBegin={300}
             />
@@ -131,7 +151,7 @@ export function MaterialContributionChart() {
               stackId="a"
               fill="var(--color-switchgears)"
               radius={[4, 4, 0, 0]}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1200}
               animationBegin={400}
             />

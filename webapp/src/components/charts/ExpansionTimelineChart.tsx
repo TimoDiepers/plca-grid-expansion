@@ -7,7 +7,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const chartConfig = {
   static: {
@@ -31,6 +31,18 @@ const chartConfig = {
 export function ExpansionTimelineChart() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    if (isInView && !hasAnimated) {
+      setHasAnimated(true);
+    }
+  }, [isInView, hasAnimated]);
+
+  // Use zeroed data until in view to prevent early animation
+  const chartData = hasAnimated 
+    ? expansionYearlyData 
+    : expansionYearlyData.map(d => ({ year: d.year, static: 0, npi: 0, pkBudg1000: 0, pkBudg650: 0 }));
 
   return (
     <div ref={ref} className="w-full">
@@ -49,7 +61,7 @@ export function ExpansionTimelineChart() {
       <ChartContainer config={chartConfig} className="h-44 sm:h-56 md:h-72 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart
-            data={expansionYearlyData}
+            data={chartData}
             margin={{ top: 5, right: 5, left: 0, bottom: 5 }}
           >
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#374151" />
@@ -67,6 +79,7 @@ export function ExpansionTimelineChart() {
               tickFormatter={(value) => `${value}`}
               tick={{ fontSize: 9, fill: "#9ca3af" }}
               width={22}
+              domain={[0, 'auto']}
             />
             <ChartTooltip
               content={
@@ -92,7 +105,7 @@ export function ExpansionTimelineChart() {
               strokeDasharray="5 5"
               dot={{ fill: "var(--color-static)", r: 2 }}
               activeDot={{ r: 4 }}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1500}
               animationBegin={0}
             />
@@ -103,7 +116,7 @@ export function ExpansionTimelineChart() {
               strokeWidth={2}
               dot={{ fill: "var(--color-npi)", r: 2 }}
               activeDot={{ r: 4 }}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1500}
               animationBegin={200}
             />
@@ -114,7 +127,7 @@ export function ExpansionTimelineChart() {
               strokeWidth={2}
               dot={{ fill: "var(--color-pkBudg1000)", r: 2 }}
               activeDot={{ r: 4 }}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1500}
               animationBegin={400}
             />
@@ -125,7 +138,7 @@ export function ExpansionTimelineChart() {
               strokeWidth={2}
               dot={{ fill: "var(--color-pkBudg650)", r: 2 }}
               activeDot={{ r: 4 }}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1500}
               animationBegin={600}
             />

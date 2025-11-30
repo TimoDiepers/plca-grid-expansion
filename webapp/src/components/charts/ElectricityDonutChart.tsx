@@ -6,7 +6,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 interface ElectricityDonutChartProps {
   data: {
@@ -34,6 +34,13 @@ const COLORS: Record<string, string> = {
 export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    if (isInView && !hasAnimated) {
+      setHasAnimated(true);
+    }
+  }, [isInView, hasAnimated]);
   
   const pieData = Object.entries(data.generation).map(([name, values]) => ({
     name,
@@ -57,6 +64,11 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
       .sort((a, b) => b.value - a.value),
     pieData.find((d) => d.name === "Grid infrastructure")!,
   ];
+
+  // Use zeroed data until in view
+  const chartData = hasAnimated 
+    ? sortedData 
+    : sortedData.map(d => ({ ...d, value: 0 }));
 
   // Build chart config dynamically
   const chartConfig = sortedData.reduce((acc, item) => {
@@ -87,7 +99,7 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
             }
           />
           <Pie
-            data={sortedData}
+            data={chartData}
             cx="50%"
             cy="100%"
             startAngle={180}
@@ -97,7 +109,7 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
             paddingAngle={2}
             dataKey="value"
             nameKey="name"
-            isAnimationActive={isInView}
+            isAnimationActive={true}
             animationDuration={1200}
             animationBegin={0}
           >

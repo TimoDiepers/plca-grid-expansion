@@ -7,7 +7,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const chartConfig = {
   value: {
@@ -46,13 +46,23 @@ const COLORS: Record<string, string> = {
 export function GridStatusQuoChart() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    if (isInView && !hasAnimated) {
+      setHasAnimated(true);
+    }
+  }, [isInView, hasAnimated]);
+
+  // Use empty data until in view to prevent early animation
+  const chartData = hasAnimated ? gridStatusQuoComponents : gridStatusQuoComponents.map(d => ({ ...d, value: 0 }));
 
   return (
     <div ref={ref}>
       <ChartContainer config={chartConfig} className="h-48 sm:h-64 md:h-80 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
-            data={gridStatusQuoComponents}
+            data={chartData}
             layout="vertical"
             margin={{ top: 5, right: 15, left: 5, bottom: 5 }}
           >
@@ -63,6 +73,7 @@ export function GridStatusQuoChart() {
               axisLine={false}
               tickFormatter={(value) => `${value}`}
               tick={{ fontSize: 10, fill: "#9ca3af" }}
+              domain={[0, 'auto']}
             />
             <YAxis
               type="category"
@@ -90,7 +101,7 @@ export function GridStatusQuoChart() {
             <Bar 
               dataKey="value" 
               radius={[0, 4, 4, 0]}
-              isAnimationActive={isInView}
+              isAnimationActive={true}
               animationDuration={1200}
               animationBegin={0}
             >

@@ -7,7 +7,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const chartConfig = {
   base: {
@@ -27,13 +27,25 @@ const chartConfig = {
 export function ImpactCategoryComparisonChart() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    if (isInView && !hasAnimated) {
+      setHasAnimated(true);
+    }
+  }, [isInView, hasAnimated]);
   
-  const data = expansionComparisonData.impactCategories.map((item) => ({
+  const fullData = expansionComparisonData.impactCategories.map((item) => ({
     ...item,
     base: item.base * 100,
     pkBudg1000: item.pkBudg1000 * 100,
     pkBudg650: item.pkBudg650 * 100,
   }));
+
+  // Use zeroed data until in view
+  const chartData = hasAnimated 
+    ? fullData 
+    : fullData.map(d => ({ ...d, base: 0, pkBudg1000: 0, pkBudg650: 0 }));
 
   return (
     <div ref={ref} className="w-full">
@@ -53,7 +65,7 @@ export function ImpactCategoryComparisonChart() {
         <ChartContainer config={chartConfig} className="h-[320px] sm:h-[400px] md:h-[500px] min-w-[350px] w-full">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
-              data={data}
+              data={chartData}
               layout="vertical"
               margin={{ top: 5, right: 15, left: 0, bottom: 5 }}
             >
@@ -97,7 +109,7 @@ export function ImpactCategoryComparisonChart() {
                 dataKey="base"
                 fill="var(--color-base)"
                 radius={[0, 4, 4, 0]}
-                isAnimationActive={isInView}
+                isAnimationActive={true}
                 animationDuration={1200}
                 animationBegin={0}
               />
@@ -105,7 +117,7 @@ export function ImpactCategoryComparisonChart() {
                 dataKey="pkBudg1000"
                 fill="var(--color-pkBudg1000)"
                 radius={[0, 4, 4, 0]}
-                isAnimationActive={isInView}
+                isAnimationActive={true}
                 animationDuration={1200}
                 animationBegin={200}
               />
@@ -113,7 +125,7 @@ export function ImpactCategoryComparisonChart() {
                 dataKey="pkBudg650"
                 fill="var(--color-pkBudg650)"
                 radius={[0, 4, 4, 0]}
-                isAnimationActive={isInView}
+                isAnimationActive={true}
                 animationDuration={1200}
                 animationBegin={400}
               />
