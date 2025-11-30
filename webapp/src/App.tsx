@@ -106,15 +106,15 @@ function MetricCard({
   color?: "blue" | "emerald" | "violet" | "amber" | "rose";
 }) {
   const colorClasses = {
-    blue: "text-blue-400 bg-blue-500/10 border-blue-500/20",
-    emerald: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20",
-    violet: "text-violet-400 bg-violet-500/10 border-violet-500/20",
-    amber: "text-amber-400 bg-amber-500/10 border-amber-500/20",
-    rose: "text-rose-400 bg-rose-500/10 border-rose-500/20",
+    blue: "text-blue-400 bg-gradient-to-br from-blue-950/90 to-blue-900/80 border-blue-500/30",
+    emerald: "text-emerald-400 bg-gradient-to-br from-emerald-950/90 to-emerald-900/80 border-emerald-500/30",
+    violet: "text-violet-400 bg-gradient-to-br from-violet-950/90 to-violet-900/80 border-violet-500/30",
+    amber: "text-amber-400 bg-gradient-to-br from-amber-950/90 to-amber-900/80 border-amber-500/30",
+    rose: "text-rose-400 bg-gradient-to-br from-rose-950/90 to-rose-900/80 border-rose-500/30",
   };
 
   return (
-    <div className={`rounded-xl border p-4 sm:p-5 ${colorClasses[color]} bg-zinc-900/95`}>
+    <div className={`rounded-xl border p-4 sm:p-5 ${colorClasses[color]}`}>
       <div className="flex items-center justify-between mb-3">
         <Icon className="h-5 w-5 opacity-70" />
         {trend && (

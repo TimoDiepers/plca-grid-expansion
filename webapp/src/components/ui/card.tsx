@@ -7,12 +7,12 @@ const cardVariants = cva(
   {
     variants: {
       variant: {
-        default: "border-zinc-700/30 bg-zinc-900/95 hover:border-zinc-600/40",
-        glass: "border-white/10 bg-zinc-900/90",
-        gradient: "border-0 bg-gradient-to-br from-zinc-900/95 to-zinc-950/95",
-        accent: "border-blue-500/20 bg-blue-950/95",
-        success: "border-emerald-500/20 bg-emerald-950/95",
-        warning: "border-amber-500/20 bg-amber-950/95",
+        default: "border-zinc-700/30 bg-zinc-900/90 hover:border-zinc-600/40",
+        glass: "border-white/10 bg-zinc-900/85",
+        gradient: "border-0 bg-gradient-to-br from-zinc-900/90 to-zinc-950/90",
+        accent: "border-blue-500/20 bg-blue-950/90",
+        success: "border-emerald-500/20 bg-emerald-950/90",
+        warning: "border-amber-500/20 bg-amber-950/90",
       },
     },
     defaultVariants: {
