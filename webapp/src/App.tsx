@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -150,12 +150,6 @@ function App() {
   // Calculate key metrics
   const totalGridImpact = gridStatusQuoComponents.reduce((sum, c) => sum + c.value, 0);
   const heroRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: heroRef,
-    offset: ["start start", "end start"]
-  });
-  const heroOpacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
-  const heroY = useTransform(scrollYProgress, [0, 1], [0, 100]);
 
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -164,9 +158,8 @@ function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 overflow-x-hidden bg-grid-pattern">
       {/* Hero Section */}
-      <motion.section
+      <section
         ref={heroRef}
-        style={{ opacity: heroOpacity }}
         className="min-h-screen flex flex-col justify-center items-center px-4 py-8 relative"
       >
         {/* Background gradient orbs */}
@@ -175,31 +168,45 @@ function App() {
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-violet-500/10 rounded-full blur-3xl" />
         </div>
 
-        <motion.div
-          style={{ y: heroY }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
-          className="text-center max-w-4xl mx-auto relative z-10"
-        >
-          <div className="inline-flex items-center gap-2 bg-zinc-800/50 border border-zinc-700/50 text-zinc-300 px-4 py-2 rounded-full mb-6 backdrop-blur-sm">
+        <div className="text-center max-w-4xl mx-auto relative z-10">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0, ease: [0.25, 0.1, 0.25, 1] }}
+            className="inline-flex items-center gap-2 bg-zinc-800/50 border border-zinc-700/50 text-zinc-300 px-4 py-2 rounded-full mb-6 backdrop-blur-sm"
+          >
             <Activity className="h-4 w-4 text-emerald-400" />
             <span className="text-xs sm:text-sm font-medium">Prospective Life Cycle Assessment</span>
-          </div>
+          </motion.div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6">
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
+            className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6"
+          >
             <span className="text-zinc-100">Germany's</span>
             <br />
             <span className="gradient-text">Grid Expansion</span>
-          </h1>
+          </motion.h1>
 
-          <p className="text-base sm:text-lg md:text-xl text-zinc-400 mb-10 leading-relaxed max-w-2xl mx-auto">
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+            className="text-base sm:text-lg md:text-xl text-zinc-400 mb-10 leading-relaxed max-w-2xl mx-auto"
+          >
             Explore the environmental impact of electricity grid infrastructure 
             from 2023 to 2045 across multiple climate scenarios
-          </p>
+          </motion.p>
 
           {/* Key Metrics */}
-          <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-10 max-w-xl mx-auto">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+            className="grid grid-cols-3 gap-3 sm:gap-4 mb-10 max-w-xl mx-auto"
+          >
             <MetricCard
               label="Status Quo"
               value={totalGridImpact.toFixed(1)}
@@ -222,9 +229,14 @@ function App() {
               icon={Layers}
               color="violet"
             />
-          </div>
+          </motion.div>
 
-          <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
+            className="flex flex-col sm:flex-row gap-3 justify-center mb-12"
+          >
             <Button
               variant="gradient"
               size="lg"
@@ -241,11 +253,17 @@ function App() {
             >
               Jump to Findings
             </Button>
-          </div>
+          </motion.div>
 
-          <ScrollIndicator />
-        </motion.div>
-      </motion.section>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+          >
+            <ScrollIndicator />
+          </motion.div>
+        </div>
+      </section>
 
       {/* Main Content - Guided Tour */}
       <main className="max-w-6xl mx-auto px-4 py-16 sm:py-24 relative z-10">
