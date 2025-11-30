@@ -172,20 +172,20 @@ function App() {
 
         <div className="text-center max-w-4xl mx-auto relative z-10">
           <motion.div 
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0, ease: [0.25, 0.1, 0.25, 1] }}
-            className="inline-flex items-center gap-2 bg-zinc-800/95 border border-zinc-700/50 text-zinc-300 px-4 py-2 rounded-full mb-6"
+            transition={{ duration: 0.6, delay: 0, ease: "easeOut" }}
+            className="inline-flex items-center gap-2 bg-zinc-800/95 border border-zinc-700/50 text-zinc-300 px-4 py-2 rounded-full mb-6 will-change-transform"
           >
             <Activity className="h-4 w-4 text-emerald-400" />
             <span className="text-xs sm:text-sm font-medium">Prospective Life Cycle Assessment</span>
           </motion.div>
 
           <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
-            className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6"
+            transition={{ duration: 0.6, delay: 0.08, ease: "easeOut" }}
+            className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6 will-change-transform"
           >
             <span className="text-zinc-100">Germany's</span>
             <br />
@@ -193,10 +193,10 @@ function App() {
           </motion.h1>
 
           <motion.p 
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
-            className="text-base sm:text-lg md:text-xl text-zinc-400 mb-10 leading-relaxed max-w-2xl mx-auto"
+            transition={{ duration: 0.6, delay: 0.16, ease: "easeOut" }}
+            className="text-base sm:text-lg md:text-xl text-zinc-400 mb-10 leading-relaxed max-w-2xl mx-auto will-change-transform"
           >
             Explore the environmental impact of electricity grid infrastructure 
             from 2023 to 2045 across multiple climate scenarios
@@ -205,9 +205,10 @@ function App() {
           {/* Key Metrics - Animate each card sequentially */}
           <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-10 max-w-xl mx-auto">
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+              transition={{ duration: 0.6, delay: 0.24, ease: "easeOut" }}
+              className="will-change-transform"
             >
               <MetricCard
                 label="Status Quo"
@@ -218,9 +219,10 @@ function App() {
               />
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
+              transition={{ duration: 0.6, delay: 0.32, ease: "easeOut" }}
+              className="will-change-transform"
             >
               <MetricCard
                 label="Possible Reduction"
@@ -232,9 +234,10 @@ function App() {
               />
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
+              transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
+              className="will-change-transform"
             >
               <MetricCard
                 label="Scenarios"
@@ -247,10 +250,10 @@ function App() {
           </div>
 
           <motion.div 
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.9, ease: [0.25, 0.1, 0.25, 1] }}
-            className="flex flex-col sm:flex-row gap-3 justify-center mb-12"
+            transition={{ duration: 0.6, delay: 0.56, ease: "easeOut" }}
+            className="flex flex-col sm:flex-row gap-3 justify-center mb-12 will-change-transform"
           >
             <Button
               variant="gradient"
@@ -273,7 +276,8 @@ function App() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.1, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.6, delay: 0.72, ease: "easeOut" }}
+            className="will-change-opacity"
           >
             <ScrollIndicator />
           </motion.div>
