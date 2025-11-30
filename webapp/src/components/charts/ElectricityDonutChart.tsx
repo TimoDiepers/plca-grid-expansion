@@ -107,6 +107,7 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
             innerRadius="55%"
             outerRadius="100%"
             paddingAngle={2}
+            cornerRadius={6}
             dataKey="value"
             nameKey="name"
             isAnimationActive={true}

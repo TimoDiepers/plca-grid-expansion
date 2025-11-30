@@ -114,7 +114,7 @@ export function MaterialContributionChart() {
               dataKey="overheadLines"
               stackId="a"
               fill="var(--color-overheadLines)"
-              radius={[4, 4, 0, 0]}
+              radius={0}
               isAnimationActive={true}
               animationDuration={1200}
               animationBegin={0}
@@ -123,7 +123,7 @@ export function MaterialContributionChart() {
               dataKey="cables"
               stackId="a"
               fill="var(--color-cables)"
-              radius={[4, 4, 0, 0]}
+              radius={0}
               isAnimationActive={true}
               animationDuration={1200}
               animationBegin={100}
@@ -132,7 +132,7 @@ export function MaterialContributionChart() {
               dataKey="transformers"
               stackId="a"
               fill="var(--color-transformers)"
-              radius={[4, 4, 0, 0]}
+              radius={0}
               isAnimationActive={true}
               animationDuration={1200}
               animationBegin={200}
@@ -141,7 +141,7 @@ export function MaterialContributionChart() {
               dataKey="substations"
               stackId="a"
               fill="var(--color-substations)"
-              radius={[4, 4, 0, 0]}
+              radius={0}
               isAnimationActive={true}
               animationDuration={1200}
               animationBegin={300}
