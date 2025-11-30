@@ -6,6 +6,8 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 const chartConfig = {
   base: {
@@ -23,6 +25,9 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 export function ImpactCategoryComparisonChart() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  
   const data = expansionComparisonData.impactCategories.map((item) => ({
     ...item,
     base: item.base * 100,
@@ -31,7 +36,7 @@ export function ImpactCategoryComparisonChart() {
   }));
 
   return (
-    <div className="w-full">
+    <div ref={ref} className="w-full">
       {/* Custom legend at top to avoid overflow */}
       <div className="flex flex-wrap justify-center gap-x-3 sm:gap-x-4 gap-y-1 text-[9px] sm:text-xs mb-2 sm:mb-3 px-2">
         {Object.entries(chartConfig).map(([key, config]) => (
@@ -92,16 +97,25 @@ export function ImpactCategoryComparisonChart() {
                 dataKey="base"
                 fill="var(--color-base)"
                 radius={[0, 4, 4, 0]}
+                isAnimationActive={isInView}
+                animationDuration={1200}
+                animationBegin={0}
               />
               <Bar
                 dataKey="pkBudg1000"
                 fill="var(--color-pkBudg1000)"
                 radius={[0, 4, 4, 0]}
+                isAnimationActive={isInView}
+                animationDuration={1200}
+                animationBegin={200}
               />
               <Bar
                 dataKey="pkBudg650"
                 fill="var(--color-pkBudg650)"
                 radius={[0, 4, 4, 0]}
+                isAnimationActive={isInView}
+                animationDuration={1200}
+                animationBegin={400}
               />
             </BarChart>
           </ResponsiveContainer>

@@ -6,6 +6,8 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 const chartConfig = {
   static: {
@@ -27,8 +29,11 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 export function ExpansionTimelineChart() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+
   return (
-    <div className="w-full">
+    <div ref={ref} className="w-full">
       {/* Custom legend at top to prevent overflow */}
       <div className="flex flex-wrap justify-center gap-x-2 sm:gap-x-3 gap-y-1 text-[9px] sm:text-xs mb-2 sm:mb-3 px-2">
         {Object.entries(chartConfig).map(([key, config]) => (
@@ -87,6 +92,9 @@ export function ExpansionTimelineChart() {
               strokeDasharray="5 5"
               dot={{ fill: "var(--color-static)", r: 2 }}
               activeDot={{ r: 4 }}
+              isAnimationActive={isInView}
+              animationDuration={1500}
+              animationBegin={0}
             />
             <Line
               type="monotone"
@@ -95,6 +103,9 @@ export function ExpansionTimelineChart() {
               strokeWidth={2}
               dot={{ fill: "var(--color-npi)", r: 2 }}
               activeDot={{ r: 4 }}
+              isAnimationActive={isInView}
+              animationDuration={1500}
+              animationBegin={200}
             />
             <Line
               type="monotone"
@@ -103,6 +114,9 @@ export function ExpansionTimelineChart() {
               strokeWidth={2}
               dot={{ fill: "var(--color-pkBudg1000)", r: 2 }}
               activeDot={{ r: 4 }}
+              isAnimationActive={isInView}
+              animationDuration={1500}
+              animationBegin={400}
             />
             <Line
               type="monotone"
@@ -111,6 +125,9 @@ export function ExpansionTimelineChart() {
               strokeWidth={2}
               dot={{ fill: "var(--color-pkBudg650)", r: 2 }}
               activeDot={{ r: 4 }}
+              isAnimationActive={isInView}
+              animationDuration={1500}
+              animationBegin={600}
             />
           </LineChart>
         </ResponsiveContainer>

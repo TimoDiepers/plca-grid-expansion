@@ -6,6 +6,8 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 const chartConfig = {
   value: {
@@ -42,52 +44,63 @@ const COLORS: Record<string, string> = {
 };
 
 export function GridStatusQuoChart() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+
   return (
-    <ChartContainer config={chartConfig} className="h-48 sm:h-64 md:h-80 w-full">
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart
-          data={gridStatusQuoComponents}
-          layout="vertical"
-          margin={{ top: 5, right: 15, left: 5, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" horizontal={true} vertical={false} stroke="#374151" />
-          <XAxis
-            type="number"
-            tickLine={false}
-            axisLine={false}
-            tickFormatter={(value) => `${value}`}
-            tick={{ fontSize: 10, fill: "#9ca3af" }}
-          />
-          <YAxis
-            type="category"
-            dataKey="name"
-            tickLine={false}
-            axisLine={false}
-            width={70}
-            tick={{ fontSize: 9, fill: "#9ca3af" }}
-          />
-          <ChartTooltip
-            cursor={{ fill: "rgba(255, 255, 255, 0.05)" }}
-            content={
-              <ChartTooltipContent
-                formatter={(value, name) => (
-                  <div className="flex items-center justify-between gap-2 sm:gap-4">
-                    <span className="text-gray-400 text-xs">{name}</span>
-                    <span className="font-mono font-medium text-gray-100 text-xs">
-                      {typeof value === "number" ? value.toFixed(2) : value} Mt CO₂-eq
-                    </span>
-                  </div>
-                )}
-              />
-            }
-          />
-          <Bar dataKey="value" radius={[0, 4, 4, 0]}>
-            {gridStatusQuoComponents.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={COLORS[entry.name] || "#8884d8"} />
-            ))}
-          </Bar>
-        </BarChart>
-      </ResponsiveContainer>
-    </ChartContainer>
+    <div ref={ref}>
+      <ChartContainer config={chartConfig} className="h-48 sm:h-64 md:h-80 w-full">
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart
+            data={gridStatusQuoComponents}
+            layout="vertical"
+            margin={{ top: 5, right: 15, left: 5, bottom: 5 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" horizontal={true} vertical={false} stroke="#374151" />
+            <XAxis
+              type="number"
+              tickLine={false}
+              axisLine={false}
+              tickFormatter={(value) => `${value}`}
+              tick={{ fontSize: 10, fill: "#9ca3af" }}
+            />
+            <YAxis
+              type="category"
+              dataKey="name"
+              tickLine={false}
+              axisLine={false}
+              width={70}
+              tick={{ fontSize: 9, fill: "#9ca3af" }}
+            />
+            <ChartTooltip
+              cursor={{ fill: "rgba(255, 255, 255, 0.05)" }}
+              content={
+                <ChartTooltipContent
+                  formatter={(value, name) => (
+                    <div className="flex items-center justify-between gap-2 sm:gap-4">
+                      <span className="text-gray-400 text-xs">{name}</span>
+                      <span className="font-mono font-medium text-gray-100 text-xs">
+                        {typeof value === "number" ? value.toFixed(2) : value} Mt CO₂-eq
+                      </span>
+                    </div>
+                  )}
+                />
+              }
+            />
+            <Bar 
+              dataKey="value" 
+              radius={[0, 4, 4, 0]}
+              isAnimationActive={isInView}
+              animationDuration={1200}
+              animationBegin={0}
+            >
+              {gridStatusQuoComponents.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={COLORS[entry.name] || "#8884d8"} />
+              ))}
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
+      </ChartContainer>
+    </div>
   );
 }

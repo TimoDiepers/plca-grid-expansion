@@ -5,6 +5,8 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 interface ElectricityDonutChartProps {
   data: {
@@ -30,6 +32,9 @@ const COLORS: Record<string, string> = {
 };
 
 export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  
   const pieData = Object.entries(data.generation).map(([name, values]) => ({
     name,
     value: values.impact,
@@ -63,7 +68,7 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
   }, {} as ChartConfig);
 
   return (
-    <div className="flex flex-col items-center w-full">
+    <div ref={ref} className="flex flex-col items-center w-full">
       {/* Half-circle chart with proper aspect ratio to remove wasted space */}
       <ChartContainer config={chartConfig} className="mx-auto w-full max-w-[200px] sm:max-w-[280px] aspect-[2/1]">
         <PieChart margin={{ top: 0, right: 0, bottom: 0, left: 0 }}>
@@ -92,6 +97,9 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
             paddingAngle={2}
             dataKey="value"
             nameKey="name"
+            isAnimationActive={isInView}
+            animationDuration={1200}
+            animationBegin={0}
           >
             {sortedData.map((entry, index) => (
               <Cell

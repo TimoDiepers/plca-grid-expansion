@@ -6,6 +6,8 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 const chartConfig = {
   overheadLines: {
@@ -31,8 +33,11 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 export function MaterialContributionChart() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+
   return (
-    <div className="w-full">
+    <div ref={ref} className="w-full">
       {/* Custom legend at top */}
       <div className="flex flex-wrap justify-center gap-x-2 sm:gap-x-3 gap-y-1 text-[9px] sm:text-xs mb-2 sm:mb-3 px-2">
         {Object.entries(chartConfig).map(([key, config]) => (
@@ -90,30 +95,45 @@ export function MaterialContributionChart() {
               stackId="a"
               fill="var(--color-overheadLines)"
               radius={[0, 0, 0, 0]}
+              isAnimationActive={isInView}
+              animationDuration={1200}
+              animationBegin={0}
             />
             <Bar
               dataKey="cables"
               stackId="a"
               fill="var(--color-cables)"
               radius={[0, 0, 0, 0]}
+              isAnimationActive={isInView}
+              animationDuration={1200}
+              animationBegin={100}
             />
             <Bar
               dataKey="transformers"
               stackId="a"
               fill="var(--color-transformers)"
               radius={[0, 0, 0, 0]}
+              isAnimationActive={isInView}
+              animationDuration={1200}
+              animationBegin={200}
             />
             <Bar
               dataKey="substations"
               stackId="a"
               fill="var(--color-substations)"
               radius={[0, 0, 0, 0]}
+              isAnimationActive={isInView}
+              animationDuration={1200}
+              animationBegin={300}
             />
             <Bar
               dataKey="switchgears"
               stackId="a"
               fill="var(--color-switchgears)"
               radius={[4, 4, 0, 0]}
+              isAnimationActive={isInView}
+              animationDuration={1200}
+              animationBegin={400}
             />
           </BarChart>
         </ResponsiveContainer>
