@@ -19,7 +19,6 @@ import {
   BarChart3,
   ChevronDown,
   ArrowRight,
-  Github,
   ExternalLink,
   Activity,
   Leaf,
@@ -152,33 +151,6 @@ function ScrollIndicator() {
   );
 }
 
-// Navigation component
-function Navigation() {
-  return (
-    <motion.nav
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.5 }}
-      className="fixed top-0 left-0 right-0 z-50 glass border-b border-white/5"
-    >
-      <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center">
-            <Cable className="h-4 w-4 text-white" />
-          </div>
-          <span className="font-semibold text-zinc-100 hidden sm:inline">PLCA Explorer</span>
-        </div>
-        <div className="flex items-center gap-2">
-          <Button variant="ghost" size="sm" className="text-xs">
-            <Github className="h-4 w-4 mr-1.5" />
-            <span className="hidden sm:inline">View on GitHub</span>
-          </Button>
-        </div>
-      </div>
-    </motion.nav>
-  );
-}
-
 function App() {
   // Calculate key metrics
   const totalGridImpact = gridStatusQuoComponents.reduce((sum, c) => sum + c.value, 0);
@@ -196,13 +168,11 @@ function App() {
 
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 overflow-x-hidden bg-grid-pattern">
-      <Navigation />
-
       {/* Hero Section */}
       <motion.section
         ref={heroRef}
         style={{ opacity: heroOpacity }}
-        className="min-h-screen flex flex-col justify-center items-center px-4 py-8 relative pt-14"
+        className="min-h-screen flex flex-col justify-center items-center px-4 py-8 relative"
       >
         {/* Background gradient orbs */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
