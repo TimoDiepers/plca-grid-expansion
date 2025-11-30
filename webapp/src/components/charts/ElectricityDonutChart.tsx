@@ -1,4 +1,4 @@
-import { Pie, PieChart, Cell, Label } from "recharts";
+import { Pie, PieChart, Cell, Label, Sector } from "recharts";
 import {
   ChartContainer,
   ChartTooltip,
@@ -79,6 +79,29 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
     return acc;
   }, {} as ChartConfig);
 
+  // Custom sector shape to round only outside corners of first and last elements
+  const renderCustomSector = (props: any, dataLength: number) => {
+    const { cx, cy, innerRadius, outerRadius, startAngle, endAngle, fill, index } = props;
+    const isFirst = index === 0;
+    const isLast = index === dataLength - 1;
+    
+    // Only round the outer corner for first (left) and last (right) segments
+    const cornerRadius = (isFirst || isLast) ? 8 : 0;
+    
+    return (
+      <Sector
+        cx={cx}
+        cy={cy}
+        innerRadius={innerRadius}
+        outerRadius={outerRadius}
+        startAngle={startAngle}
+        endAngle={endAngle}
+        fill={fill}
+        cornerRadius={cornerRadius}
+      />
+    );
+  };
+
   return (
     <div ref={ref} className="flex flex-col items-center w-full">
       {/* Half-circle chart with proper aspect ratio to remove wasted space */}
@@ -107,12 +130,13 @@ export function ElectricityDonutChart({ data }: ElectricityDonutChartProps) {
             innerRadius="55%"
             outerRadius="100%"
             paddingAngle={2}
-            cornerRadius={6}
             dataKey="value"
             nameKey="name"
             isAnimationActive={true}
             animationDuration={1200}
             animationBegin={0}
+            activeShape={(props: any) => renderCustomSector(props, chartData.length)}
+            shape={(props: any) => renderCustomSector(props, chartData.length)}
           >
             {sortedData.map((entry, index) => (
               <Cell
