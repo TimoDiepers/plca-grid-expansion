@@ -133,12 +133,7 @@ function MetricCard({
 // Scroll indicator component
 function ScrollIndicator() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: 0.6, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-      className="flex flex-col items-center gap-2 text-zinc-500"
-    >
+    <div className="flex flex-col items-center gap-2 text-zinc-500">
       <span className="text-xs uppercase tracking-widest">Scroll to explore</span>
       <motion.div
         animate={{ y: [0, 6, 0] }}
@@ -147,7 +142,7 @@ function ScrollIndicator() {
       >
         <ChevronDown className="h-4 w-4" />
       </motion.div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -184,47 +179,27 @@ function App() {
           style={{ y: heroY }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
           className="text-center max-w-4xl mx-auto relative z-10"
         >
-          <motion.div
-            initial={{ scale: 0.95, opacity: 0, y: 10 }}
-            animate={{ scale: 1, opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="inline-flex items-center gap-2 bg-zinc-800/50 border border-zinc-700/50 text-zinc-300 px-4 py-2 rounded-full mb-6 backdrop-blur-sm"
-          >
+          <div className="inline-flex items-center gap-2 bg-zinc-800/50 border border-zinc-700/50 text-zinc-300 px-4 py-2 rounded-full mb-6 backdrop-blur-sm">
             <Activity className="h-4 w-4 text-emerald-400" />
             <span className="text-xs sm:text-sm font-medium">Prospective Life Cycle Assessment</span>
-          </motion.div>
+          </div>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.15, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-            className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6"
-          >
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6">
             <span className="text-zinc-100">Germany's</span>
             <br />
             <span className="gradient-text">Grid Expansion</span>
-          </motion.h1>
+          </h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-            className="text-base sm:text-lg md:text-xl text-zinc-400 mb-10 leading-relaxed max-w-2xl mx-auto"
-          >
+          <p className="text-base sm:text-lg md:text-xl text-zinc-400 mb-10 leading-relaxed max-w-2xl mx-auto">
             Explore the environmental impact of electricity grid infrastructure 
             from 2023 to 2045 across multiple climate scenarios
-          </motion.p>
+          </p>
 
           {/* Key Metrics */}
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.25, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-            className="grid grid-cols-3 gap-3 sm:gap-4 mb-10 max-w-xl mx-auto"
-          >
+          <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-10 max-w-xl mx-auto">
             <MetricCard
               label="Status Quo"
               value={totalGridImpact.toFixed(1)}
@@ -247,14 +222,9 @@ function App() {
               icon={Layers}
               color="violet"
             />
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-            className="flex flex-col sm:flex-row gap-3 justify-center mb-12"
-          >
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12">
             <Button
               variant="gradient"
               size="lg"
@@ -271,7 +241,7 @@ function App() {
             >
               Jump to Findings
             </Button>
-          </motion.div>
+          </div>
 
           <ScrollIndicator />
         </motion.div>
