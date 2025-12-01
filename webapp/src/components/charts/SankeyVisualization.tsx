@@ -1,6 +1,5 @@
 import { Sankey, Tooltip, Layer, Rectangle } from "recharts";
 import { sankeyData } from "@/data";
-import { useMemo } from "react";
 
 // Node colors - organized by category
 const NODE_COLORS: Record<string, string> = {
