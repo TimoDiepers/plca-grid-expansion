@@ -151,14 +151,15 @@ function SankeyLink({
   if (!payload) return null;
   
   const sourceNode = nodes[payload.source];
+  const targetNode = nodes[payload.target];
   const gradientId = `gradient-${payload.source}-${payload.target}`;
 
   return (
     <Layer>
       <defs>
         <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor={sourceNode?.fill || "#9ca3af"} stopOpacity={0.5} />
-          <stop offset="100%" stopColor={sourceNode?.fill || "#9ca3af"} stopOpacity={0.2} />
+          <stop offset="0%" stopColor={sourceNode?.fill || "#9ca3af"} stopOpacity={0.6} />
+          <stop offset="100%" stopColor={targetNode?.fill || "#9ca3af"} stopOpacity={0.4} />
         </linearGradient>
       </defs>
       <path
