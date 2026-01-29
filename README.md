@@ -18,11 +18,10 @@ This project analyzes the environmental impacts of electricity grid expansion in
 ├── 1_status_quo.ipynb               # LCA of Germany's current grid
 ├── 2_grid_expansion.ipynb           # LCA of grid expansion scenarios
 ├── 3_electricity_contribution.ipynb # Grid-related impacts per kWh
-├── data/                            # Data files and results
-│   ├── *.csv                        # Component data (cables, transformers, etc.)
-│   ├── *.json                       # Expansion results
-│   └── *.xlsx                       # Uncertainty and sensitivity analysis
-├── helpers/                         # Helper notebooks
+├── data/
+│   ├── lci/                         # LCI input data (component CSVs)
+│   └── results/                     # Generated results (JSON, Excel, plot data)
+├── helpers/
 │   └── iam_results_decryption.ipynb # Decrypt premise IAM results
 ├── environment.yaml                 # Conda environment specification
 └── LICENSE                          # BSD 3-Clause License
@@ -61,7 +60,7 @@ The analysis is organized into numbered notebooks that should be run sequentiall
 - Creates the background databases
 - Requires access to ecoinvent database
 - Requires premise default scenarios
-- Sets up the Brightway2 project
+- Sets up the Brightway project & databases
 
 ### 1. Status Quo Analysis (`1_status_quo.ipynb`)
 - Performs LCA of Germany's current grid infrastructure
@@ -72,55 +71,27 @@ The analysis is organized into numbered notebooks that should be run sequentiall
 - Analyzes environmental impacts of grid expansion scenarios
 - Evaluates different impact categories
 - Includes uncertainty and sensitivity analysis
-- Set `recalculate = True/False` to control computation time
 
 ### 3. Electricity Contribution (`3_electricity_contribution.ipynb`)
 - Calculates grid-related climate change impacts per kWh electricity
 - Compares electricity generation impacts across scenarios
 
-### Helper Tools
-
-The `helpers/` directory contains:
-- `iam_results_decryption.ipynb`: Tools for decrypting premise IAM result files (requires decryption key from premise maintainers)
-
 ## Data
 
-The `data/` directory contains:
+The `data/` directory is organized into two subdirectories:
 
-- **Component data**: CSV files with LCI data for grid components (cables, transformers, switchgear, etc.)
-- **Results**: JSON files with expansion results for different impact categories
-- **Uncertainty analysis**: Excel files with Monte Carlo and global sensitivity analysis results
-- **Plots**: CSV files with data for visualization
+### `data/lci/` - Life Cycle Inventory Input Data
+CSV files with LCI data for grid components (cables, overhead lines, transformers, switchgear, substations, etc.)
 
-## Dependencies
-
-Key dependencies include:
-
-- **Brightway2** (bw2data, bw2calc, brightway25): LCA framework
-- **premise**: Prospective environmental scenarios
-- **ipython/ipykernel**: Jupyter notebook support
-- **rwthcolors**: Plotting utilities
-
-See `environment.yaml` for the complete list of dependencies.
-
-## Notes
-
-- **macOS ARM users**: Uncomment the appropriate lines in `environment.yaml` for macOS ARM compatibility
-- **Computation time**: Notebook 2 can take significant time to run. Use the `recalculate` flag to skip recalculations
-- **Data access**: Some data files require access credentials (ecoinvent, premise scenarios)
+### `data/results/` - Generated Results
+- **JSON files**: Expansion results for different impact categories
+- **Excel files**: Monte Carlo and global sensitivity analysis results
+- **CSV files**: Plot data for visualization
 
 ## License
 
 This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-
-Copyright (c) 2024, Timo Diepers
-
 ## Citation
 
 If you use this code or data in your research, please cite the associated paper (citation to be added).
-
-## Contact
-
-For questions about premise IAM results or data access, please contact the premise maintainers.
